@@ -17,6 +17,12 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("⚙️ Ajustes del Mazo")
 permitir_invertidas = st.sidebar.checkbox("Permitir cartas invertidas", value=True, help="Si se desactiva, todas las cartas saldrán obligatoriamente al derecho.")
 
+# Inicializar memoria de sesión para que no se borren los resultados al hacer clic
+if "tirada" not in st.session_state:
+    st.session_state.tirada = None
+if "interpretacion" not in st.session_state:
+    st.session_state.interpretacion = None
+
 # =====================================================================
 # 2. BASE DE DATOS DE ARCANOS MAYORES (22 CARTAS COMPLETAS)
 # =====================================================================
@@ -46,7 +52,7 @@ ARCANOS_MAYORES = {
 }
 
 # =====================================================================
-# 3. EL PROMPT MAESTRO INTELIGENTE UNIFICADO (FORMATO PLANO DESDE LA IA)
+# 3. EL PROMPT MAESTRO INTELIGENTE UNIFICADO
 # =====================================================================
 PROMPT_MAESTRO_BASE = """Actúa como un Consultor de Tarot Profesional. Debes adoptar estrictamente el enfoque solicitado por el usuario:
 
@@ -95,9 +101,3 @@ pregunta = st.text_input("Formula tu consulta con honestidad (el espejo no mient
 
 enfoque_oraculo = st.selectbox("Elige el Alma del Tarotista:", [
     "🧠 Psicología Junguiana (Espejo Interno y Bloqueos)", 
-    "✨ Tradición Mística (Pronóstico, Símbolos y Destino)"
-])
-
-tipo_tirada = st.selectbox("Selecciona la disposición de la lectura:", ["Espejo Directo (1 Carta)", "Evolución Cruda (3 Cartas)"])
-boton_barajar = st.button("🔮 Consultar el Espejo")
-
