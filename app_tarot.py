@@ -19,7 +19,7 @@ st.sidebar.subheader("⚙️ Ajustes del Mazo")
 permitir_invertidas = st.sidebar.checkbox("Permitir cartas invertidas", value=True, help="Si se desactiva, todas las cartas saldrán obligatoriamente al derecho.")
 
 # =====================================================================
-# 2. BASE DE DATOS DE ARCANOS MAYORES
+# 2. BASE DE DATOS DE ARCANOS MAYORES (22 CARTAS COMPLETAS)
 # =====================================================================
 ARCANOS_MAYORES = {
     "0": {"nombre": "El Loco", "arquetipo": "El Impulso Ciego", "upright": "Nuevos caminos, saltos de fe, inicio de una aventura inesperada. Libertad absoluta.", "reversed": "Irresponsabilidad, andar a ciegas, dar pasos en falso o huir de la realidad por inmadurez."},
@@ -27,9 +27,23 @@ ARCANOS_MAYORES = {
     "2": {"nombre": "La Sacerdotisa", "arquetipo": "La Inacción Sabia", "upright": "Secretos por revelar, intuición profunda, paciencia. Tiempo de maduración en silencio.", "reversed": "Intenciones ocultas que dañan, frialdad, superficialidad o ignorar la verdad que ya sabes."},
     "3": {"nombre": "La Emperatriz", "arquetipo": "La Fuerza Creativa", "upright": "Abundancia, crecimiento, fertilidad en proyectos o relaciones. Expresión artística.", "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."},
     "4": {"nombre": "El Emperador", "arquetipo": "La Estructura", "upright": "Estabilidad, protección, situación con poder y límites claros. Autoridad sólida.", "reversed": "Rigidez mental extrema, tiranía, control asfixiante o caos total por falta de disciplina."},
+    "5": {"nombre": "El Hierofante", "arquetipo": "El Guía Espiritual", "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas establecidas.", "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."},
+    "6": {"nombre": "Los Enamorados", "arquetipo": "La Elección", "upright": "Alineación de valores, decisiones cruciales del corazón, armonía en relaciones y encrucijadas.", "reversed": "Desalineación, conflicto interno, malas elecciones afectivas o falta de compromiso."},
+    "7": {"nombre": "El Carro", "arquetipo": "La Voluntad Dirigida", "upright": "Éxito por esfuerzo, determinación, control sobre fuerzas opuestas y avance firme.", "reversed": "Falta de dirección, pérdida de control, agresividad desmedida o estancamiento por dudas."},
+    "8": {"nombre": "La Fuerza", "arquetipo": "El Dominio Interior", "upright": "Coraje, paciencia, compasión y control de los impulsos primarios a través de la suavidad.", "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad paralizante."},
+    "9": {"nombre": "El Ermitaño", "arquetipo": "La Introspección", "upright": "Búsqueda de la verdad interior, soledad voluntaria, sabiduría del tiempo y prudencia.", "reversed": "Aislamiento destructivo, rechazo a la ayuda, obsesión con el pasado o imprudencia."},
+    "10": {"nombre": "La Rueda de la Fortuna", "arquetipo": "El Cambio Inevitable", "upright": "Ciclos, giros del destino, golpes de suerte, evolución necesaria del entorno.", "reversed": "Resistencia al cambio, mala racha temporal, repetición de patrones del pasado."},
+    "11": {"nombre": "La Justicia", "arquetipo": "La Causa y Efecto", "upright": "Verdad, equidad, consecuencias legales o morales equilibradas. Honestidad radical.", "reversed": "Injusticia, sesgo, falta de rendición de cuentas, desequilibrio o juicios severos."},
+    "12": {"nombre": "El Colgado", "arquetipo": "La Rendición", "upright": "Nueva perspectiva, pausa voluntaria, sacrificio constructivo, ver las cosas al revés.", "reversed": "Martirio inútil, estancamiento por miedo, resistencia a soltar el control o apatía."},
     "13": {"nombre": "La Muerte", "arquetipo": "La Transformación", "upright": "Cierre inevitable de un ciclo, renovación profunda, final necesario para que nazca lo nuevo.", "reversed": "Resistencia dolorosa a dejar ir, estancamiento en un pasado que ya no tiene vida."},
+    "14": {"nombre": "La Templanza", "arquetipo": "La Alquimia Interna", "upright": "Equilibrio, moderación, paciencia, mezcla armónica de opuestos y sanación emocional.", "reversed": "Desequilibrio, excesos, falta de paciencia, intereses en conflicto o desconexión."},
     "15": {"nombre": "El Diablo", "arquetipo": "La Sombra", "upright": "Obsesiones, ataduras materiales, magnetismo sexual intenso, confrontación con dependencias.", "reversed": "Liberación dolorosa de vicios y cadenas, o sumisión total a ilusiones destructivas."},
-    "16": {"nombre": "La Torre", "arquetipo": "Ruptura del Ego", "upright": "Colapso abrupto de planes o ilusiones falsas. Un golpe inesperado que limpia el terreno.", "reversed": "Evitar un colapso inminente temporalmente, vivir atrapado en una estructura agrietada."}
+    "16": {"nombre": "La Torre", "arquetipo": "Ruptura del Ego", "upright": "Colapso abrupto de planes o ilusiones falsas. Un golpe inesperado que limpia el terreno.", "reversed": "Evitar un colapso inminente temporalmente, vivir atrapado en una estructura agrietada."},
+    "17": {"nombre": "La Estrella", "arquetipo": "La Esperanza Divina", "upright": "Fe en el futuro, renovación espiritual, serenidad, inspiración y sanación profunda.", "reversed": "Falta de fe, desilusión, pesimismo, bloqueos creativos o falsas expectativas."},
+    "18": {"nombre": "La Luna", "arquetipo": "El Subconsciente", "upright": "Ilusiones, miedos ocultos, sueños vívidos, intuición y verdades escondidas en la sombra.", "reversed": "Liberación del miedo, confusión que se aclara, secretos revelados o autoengaño expuesto."},
+    "19": {"nombre": "El Sol", "arquetipo": "La Claridad Total", "upright": "Éxito rotundo, vitalidad, alegría pura, verdad revelada a la luz y conexión auténtica.", "reversed": "Felicidad nublada temporalmente, orgullo excesivo, necesidad de validación o retrasos mínimos."},
+    "20": {"nombre": "El Juicio", "arquetipo": "El Despertar", "upright": "Llamado interno, absolución del pasado, decisiones definitivas que transforman la vida.", "reversed": "Dudas sobre el propio camino, autoreproche, ignorar la intuición o miedo a renovarse."},
+    "21": {"nombre": "El Mundo", "arquetipo": "La Realización", "upright": "Logro absoluto, cierre exitoso de un gran viaje, integración perfecta y plenitud.", "reversed": "Falta de cierre, proyectos inacabados, metas frustradas en el último paso o estancamiento."}
 }
 
 # =====================================================================
