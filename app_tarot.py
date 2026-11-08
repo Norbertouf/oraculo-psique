@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# AJUSTES SUTILES EN LA BARRA LATERAL
+# AJUSTES EN LA BARRA LATERAL
 st.sidebar.subheader("⚙️ Ajustes Avanzados")
 permitir_invertidas = st.sidebar.checkbox("Permitir cartas invertidas", value=True)
 
@@ -28,7 +28,7 @@ ARCANOS_MAYORES = {
     "5": {"nombre": "El Hierofante", "arquetipo": "El Guía Espiritual", "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas.", "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."},
     "6": {"nombre": "Los Enamorados", "arquetipo": "La Elección", "upright": "Alineación de valores, decisiones cruciales del corazón, armonía en relaciones y encrucijadas.", "reversed": "Desalineación, conflicto interno, malas elecciones afectivas o falta de compromiso."},
     "7": {"nombre": "El Carro", "arquetipo": "La Voluntad Dirigida", "upright": "Éxito por esfuerzo, determinación, control sobre fuerzas opuestas y avance firme.", "reversed": "Falta de dirección, pérdida de control, agresividad desmedida o estancamiento."},
-    "8": {"nombre": "La Fuerza", "arquetipo": "El Dominio Interior", "upright": "Coraje, paciencia, compasión y control de los impulsos primarios a través de la suavidad.", "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad."},
+    "8": {"nombre": "La Fuerza", "arquetipo": "El Dominio Interior", "upright": "Coraje, paciencia, compasión and control de los impulsos primarios a través de la suavidad.", "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad."},
     "9": {"nombre": "El Ermitaño", "arquetipo": "La Introspección", "upright": "Búsqueda de la verdad interior, soledad voluntaria, sabiduría del tiempo y prudencia.", "reversed": "Aislamiento destructivo, rechazo a la ayuda, obsesión con el pasado o imprudencia."},
     "10": {"nombre": "La Rueda de la Fortuna", "arquetipo": "El Cambio Inevitable", "upright": "Ciclos, giros del destino, golpes de suerte, evolución necesaria del entorno.", "reversed": "Resistencia al cambio, mala racha temporal, repetición de patrones del pasado."},
     "11": {"nombre": "La Justicia", "arquetipo": "La Causa y Efecto", "upright": "Verdad, equidad, consecuencias legales o morales equilibradas. Honestidad radical.", "reversed": "Injusticia, sesgo, falta de rendición de cuentas, desequilibrio o juicios severos."},
@@ -49,7 +49,7 @@ ARCANOS_MAYORES = {
 # =====================================================================
 PROMPT_MAESTRO_BASE = """Actúa como un Consultor de Tarot Profesional de élite. Debes adoptar estrictamente el enfoque solicitado:
 
-- Si el enfoque es 'PSICOLOGÍA', actúa como un Psicólogo Junguiano basado en arquetipos. Sé radicalmente HONESTO, REALISTA y DIRECTO. Tienes prohibido complacer. Analiza el bloqueo subconsciente.
+- Si el enfoque es 'PSICOLOGÍA', actúa como un Psicólogo Junguiano basado en arquetipos. Sé radicalmente HONESTO, REALISTA y DIRECTO. Analiza el bloqueo subconsciente.
 - Si el enfoque es 'MÍSTICO', actúa como un Lector de Tarot Tradicional y místico. Analiza la tendencia de los acontecimientos, los hechos reales cotidianos y el augurio de los símbolos visuales.
 
 Pregunta del usuario: "{pregunta_usuario}"
@@ -73,11 +73,11 @@ Estructura tu respuesta exactamente con este formato de títulos en Markdown:
 [Ofrece la recomendación práctica o decreto místico definitivo para el consultante]."""
 
 # =====================================================================
-# 4. ELEMENTOS VISUALES Y ADVERTENCIAS (INTERFAZ COMPLETA Y PROTEGIDA)
+# 4. ELEMENTOS VISUALES Y ADVERTENCIAS LEGALES
 # =====================================================================
 st.title("🔮 Oráculo de la Psique")
 
-# Firma de marca Noruf_Labs
+# Firma corporativa elegante
 st.markdown("""
     <div style='text-align: center; margin-top: -15px; margin-bottom: 20px;'>
         <span style='color: #D4AF37; font-weight: bold; font-family: monospace; font-size: 1.1rem;'>🔬 Noruf_Labs</span>
@@ -88,16 +88,24 @@ st.markdown("""
 
 st.caption("Un software intuitivo con respuestas claras e inmediatas")
 
-# 🛡️ ADVERTENCIAS DE RESPONSABILIDAD RESTAURADAS
+# 🛡️ PROTECCIÓN DE RESPONSABILIDAD LEGAL Y RIGOR TEÓRICO
 st.error("⚠️ ADVERTENCIA DE HONESTIDAD: El tarot no es una ciencia demostrada. Considéralo un entretenimiento introspectivo.")
 st.info("📘 RIGOR TEÓRICO COMPARTIDO: Elige si deseas un análisis de psicología arquetípica (Jung) o un pronóstico místico clásico (Marsella).")
 
-# Formulario ordenado
-pregunta = st.text_input("1. Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Es buen momento para tomar una decisión importante?")
+# PASO 1
+pregunta = st.text_input("1. Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Es buen momento para tomar esta decisión?")
 
-enfoque_oraculo = st.selectbox("2. Elige el Alma del Tarotista:", [
+# PASO 2
+enfoque_oraculo = st.selectbox("2. Elige el enfoque de la lectura:", [
     "🧠 Psicología Junguiana (Espejo Interno y Bloqueos)", 
     "✨ Tradición Mística (Pronóstico, Símbolos y Destino)"
 ])
 
+# PASO 3: CATÁLOGO OPTIMIZADO Y DIRECTO DE TIRADAS
+opciones_tirada = [
+    "Espejo Directo (Respuesta Rápida - 1 Carta)",
+    "Línea de Tiempo (3 Cartas: Pasado - Presente - Futuro)",
+    "La Cruz Celta (Análisis Exhaustivo - 10 Cartas)"
+]
+tipo_tirada = st.selectbox("3. Selecciona la disposición de la lectura:", opciones_tirada)
 
