@@ -12,8 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# BARRA LATERAL: Clave y Ajustes del Mazo
-
+# BARRA LATERAL: Ajustes del Mazo
 st.sidebar.markdown("---")
 st.sidebar.subheader("⚙️ Ajustes del Mazo")
 permitir_invertidas = st.sidebar.checkbox("Permitir cartas invertidas", value=True, help="Si se desactiva, todas las cartas saldrán obligatoriamente al derecho.")
@@ -27,10 +26,10 @@ ARCANOS_MAYORES = {
     "2": {"nombre": "La Sacerdotisa", "arquetipo": "La Inacción Sabia", "upright": "Secretos por revelar, intuición profunda, paciencia. Tiempo de maduración en silencio.", "reversed": "Intenciones ocultas que dañan, frialdad, superficialidad o ignorar la verdad que ya sabes."},
     "3": {"nombre": "La Emperatriz", "arquetipo": "La Fuerza Creativa", "upright": "Abundancia, crecimiento, fertilidad en proyectos o relaciones. Expresión artística.", "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."},
     "4": {"nombre": "El Emperador", "arquetipo": "La Estructura", "upright": "Estabilidad, protección, situación con poder y límites claros. Autoridad sólida.", "reversed": "Rigidez mental extrema, tiranía, control asfixiante o caos total por falta de disciplina."},
-    "5": {"nombre": "El Hierofante", "arquetipo": "El Guía Espiritual", "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas establecidas.", "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."},
+    "5": {"nombre": "El Hierofante", "arquetipo": "El Guía Espiritual", "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas.", "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."},
     "6": {"nombre": "Los Enamorados", "arquetipo": "La Elección", "upright": "Alineación de valores, decisiones cruciales del corazón, armonía en relaciones y encrucijadas.", "reversed": "Desalineación, conflicto interno, malas elecciones afectivas o falta de compromiso."},
-    "7": {"nombre": "El Carro", "arquetipo": "La Voluntad Dirigida", "upright": "Éxito por esfuerzo, determinación, control sobre fuerzas opuestas y avance firme.", "reversed": "Falta de dirección, pérdida de control, agresividad desmedida o estancamiento por dudas."},
-    "8": {"nombre": "La Fuerza", "arquetipo": "El Dominio Interior", "upright": "Coraje, paciencia, compasión y control de los impulsos primarios a través de la suavidad.", "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad paralizante."},
+    "7": {"nombre": "El Carro", "arquetipo": "La Voluntad Dirigida", "upright": "Éxito por esfuerzo, determinación, control sobre fuerzas opuestas y avance firme.", "reversed": "Falta de dirección, pérdida de control, agresividad desmedida o estancamiento."},
+    "8": {"nombre": "La Fuerza", "arquetipo": "El Dominio Interior", "upright": "Coraje, paciencia, compasión y control de los impulsos primarios a través de la suavidad.", "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad."},
     "9": {"nombre": "El Ermitaño", "arquetipo": "La Introspección", "upright": "Búsqueda de la verdad interior, soledad voluntaria, sabiduría del tiempo y prudencia.", "reversed": "Aislamiento destructivo, rechazo a la ayuda, obsesión con el pasado o imprudencia."},
     "10": {"nombre": "La Rueda de la Fortuna", "arquetipo": "El Cambio Inevitable", "upright": "Ciclos, giros del destino, golpes de suerte, evolución necesaria del entorno.", "reversed": "Resistencia al cambio, mala racha temporal, repetición de patrones del pasado."},
     "11": {"nombre": "La Justicia", "arquetipo": "La Causa y Efecto", "upright": "Verdad, equidad, consecuencias legales o morales equilibradas. Honestidad radical.", "reversed": "Injusticia, sesgo, falta de rendición de cuentas, desequilibrio o juicios severos."},
@@ -40,7 +39,7 @@ ARCANOS_MAYORES = {
     "15": {"nombre": "El Diablo", "arquetipo": "La Sombra", "upright": "Obsesiones, ataduras materiales, magnetismo sexual intenso, confrontación con dependencias.", "reversed": "Liberación dolorosa de vicios y cadenas, o sumisión total a ilusiones destructivas."},
     "16": {"nombre": "La Torre", "arquetipo": "Ruptura del Ego", "upright": "Colapso abrupto de planes o ilusiones falsas. Un golpe inesperado que limpia el terreno.", "reversed": "Evitar un colapso inminente temporalmente, vivir atrapado en una estructura agrietada."},
     "17": {"nombre": "La Estrella", "arquetipo": "La Esperanza Divina", "upright": "Fe en el futuro, renovación espiritual, serenidad, inspiración y sanación profunda.", "reversed": "Falta de fe, desilusión, pesimismo, bloqueos creativos o falsas expectativas."},
-    "18": {"nombre": "La Luna", "arquetipo": "El Subconsciente", "upright": "Ilusiones, miedos ocultos, sueños vívidos, intuición y verdades escondidas en la sombra.", "reversed": "Liberación del miedo, confusión que se aclara, secretos revelados o autoengaño expuesto."},
+    "18": {"nombre": "La Luna", "arquetipo": "El Subconsciente", "upright": "Ilusiones, miedos ocultos, sueños vívidos, intuición y verdades escondidas en la sombra.", "reversed": "Liberación del miedo, confusión que se aclarará, secretos revelados o autoengaño expuesto."},
     "19": {"nombre": "El Sol", "arquetipo": "La Claridad Total", "upright": "Éxito rotundo, vitalidad, alegría pura, verdad revelada a la luz y conexión auténtica.", "reversed": "Felicidad nublada temporalmente, orgullo excesivo, necesidad de validación o retrasos mínimos."},
     "20": {"nombre": "El Juicio", "arquetipo": "El Despertar", "upright": "Llamado interno, absolución del pasado, decisiones definitivas que transforman la vida.", "reversed": "Dudas sobre el propio camino, autoreproche, ignorar la intuición o miedo a renovarse."},
     "21": {"nombre": "El Mundo", "arquetipo": "La Realización", "upright": "Logro absoluto, cierre exitoso de un gran viaje, integración perfecta y plenitud.", "reversed": "Falta de cierre, proyectos inacabados, metas frustradas en el último paso o estancamiento."}
@@ -77,7 +76,6 @@ Estructura tu respuesta exactamente con este formato de títulos en Markdown par
 # =====================================================================
 st.title("🔮 Oráculo de la Psique")
 
-# 🚀 TUS CRÉDITOS DE AUTOR DESTACADOS EN LA PARTE SUPERIOR
 st.markdown("""
     <div style='text-align: center; margin-top: -15px; margin-bottom: 20px;'>
         <span style='color: #D4AF37; font-weight: bold; font-family: monospace; font-size: 1.1rem;'>🔬 Noruf_Labs</span>
@@ -103,65 +101,3 @@ enfoque_oraculo = st.selectbox("Elige el Alma del Tarotista:", [
 tipo_tirada = st.selectbox("Selecciona la disposición de la lectura:", ["Espejo Directo (1 Carta)", "Evolución Cruda (3 Cartas)"])
 boton_barajar = st.button("🔮 Consultar el Espejo")
 
-# =====================================================================
-# 5. LÓGICA DE BARAJADO Y DETECCIÓN DE INVERTIDAS
-# =====================================================================
-if boton_barajar:
-    if not pregunta:
-        st.warning("Por favor, introduce una consulta para activar el mecanismo de sincronía.")
-    else:
-        num_cartas = 1 if "1 Carta" in tipo_tirada else 3
-        claves_disponibles = list(ARCANOS_MAYORES.keys())
-        tirada_final = []
-        
-        for _ in range(num_cartas):
-            elegida = secrets.choice(claves_disponibles)
-            claves_disponibles.remove(elegida)
-            
-            if permitir_invertidas:
-                invertida = secrets.randbelow(100) < 25
-            else:
-                invertida = False
-                
-            tirada_final.append({"datos": ARCANOS_MAYORES[elegida], "invertida": invertida})
-            
-        st.markdown("### Arquetipos Convocados:")
-        columnas_pantalla = st.columns(num_cartas)
-        posiciones_nombre = ["Origen / Bloqueo", "Realidad Presente", "Desenlace Potencial"]
-        
-        for idx, carta in enumerate(tirada_final):
-            with columnas_pantalla[idx]:
-                ori_txt = "Invertida" if carta["invertida"] else "Al Derecho"
-                st.metric(label=posiciones_nombre[idx] if num_cartas == 3 else "Eje Central", value=carta["datos"]["nombre"], delta=ori_txt if permitir_invertidas else None)
-
-        # =====================================================================
-        # 6. ENTRADA Y PROCESAMIENTO DE LA RESPUESTA (ESTRUCTURA 100% PLANA)
-        # =====================================================================
-        texto_completo = ""
-        client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-        cartas_texto_bloque = ""
-        
-        # Procesar los datos de las cartas para el prompt
-        for carta in tirada_final:
-            orientacion = "Invertida" if carta["invertida"] else "Al Derecho"
-            significado = carta["datos"]["reversed"] if carta["invertida"] else carta["datos"]["upright"]
-            cartas_texto_bloque += f"- {carta['datos']['nombre']} ({orientacion}): Arquetipo '{carta['datos']['arquetipo']}'. Significado: {significado}\n"
-            
-        # Construir el prompt unificado
-        prompt_final = PROMPT_MAESTRO_BASE.format(
-            pregunta_usuario=pregunta,
-            enfoque_solicitado=enfoque_oraculo,
-            datos_de_las_cartas_extraidas=cartas_texto_bloque
-        )
-        
-        # Enviar petición a OpenAI
-        with st.spinner("El espejo está procesando tu destino..."):
-            try:
-                response = client.chat.completions.create(
-                    model="gpt-4o-mini",
-                    messages=[{"role": "user", "content": prompt_final}]
-                )
-                # Mostrar el resultado final en la interfaz
-                st.markdown(response.choices.message.content)
-            except Exception as e:
-                st.error(f"Error al conectar con el oráculo de OpenAI: {e}")
