@@ -100,11 +100,4 @@ enfoque_oraculo = st.selectbox("2. Elige el Alma del Tarotista:", [
     "✨ Tradición Mística (Pronóstico, Símbolos y Destino)"
 ])
 
-# Diccionario unificado para los desplegables
-MECANISMO_TIRADAS = {
-    "Respuesta Rápida (1 Carta)": {
-        "num": 1, 
-        "nombres": ["Eje Central"]
-    },
-    "Línea de Tiempo (3 Cartas: Pasado - Presente - Futuro)": {
-        "num": 3, 
+
