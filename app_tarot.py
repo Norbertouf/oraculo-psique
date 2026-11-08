@@ -28,7 +28,7 @@ if "interpretacion" not in st.session_state:
 # =====================================================================
 ARCANOS_MAYORES = {
     "0": {"nombre": "El Loco", "arquetipo": "El Impulso Ciego", "upright": "Nuevos caminos, saltos de fe, inicio de una aventura inesperada. Libertad absoluta.", "reversed": "Irresponsabilidad, andar a ciegas, dar pasos en falso o huir de la realidad por inmadurez."},
-    "1": {"nombre": "El Mago", "arquetipo": "El Alquimista", "upright": "Capacidad para manifestar, intelligence práctica, todas las herramientas listas para usarse.", "reversed": "Talento desperdiciado, trucos, manipulación, promesas falsas o indecisión paralizante."},
+    "1": {"nombre": "El Mago", "arquetipo": "El Alquimista", "upright": "Capacidad para manifestar, inteligencia práctica, todas las herramientas listas para usarse.", "reversed": "Talento desperdiciado, trucos, manipulación, promesas falsas o indecisión paralizante."},
     "2": {"nombre": "La Sacerdotisa", "arquetipo": "La Inacción Sabia", "upright": "Secretos por revelar, intuición profunda, paciencia. Tiempo de maduración en silencio.", "reversed": "Intenciones ocultas que dañan, frialdad, superficialidad o ignorar la verdad que ya sabes."},
     "3": {"nombre": "La Emperatriz", "arquetipo": "La Fuerza Creativa", "upright": "Abundancia, crecimiento, fertilidad en proyectos o relaciones. Expresión artística.", "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."},
     "4": {"nombre": "El Emperador", "arquetipo": "La Estructura", "upright": "Estabilidad, protección, situación con poder y límites claros. Autoridad sólida.", "reversed": "Rigidez mental extrema, tiranía, control asfixiante o caos total por falta de disciplina."},
@@ -99,4 +99,4 @@ st.info("📘 RIGOR TEÓRICO COMPARTIDO: Elige si deseas un análisis de psicolo
 
 pregunta = st.text_input("Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Hablaremos ella y yo mañana por teléfono?")
 
-# Definir la lista de opciones de forma lineal y compacta en una sola línea para evitar fallos de lectura de llaves
+# Definir la lista de opciones de forma lineal y compacta
