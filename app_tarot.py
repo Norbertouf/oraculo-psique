@@ -95,8 +95,6 @@ boton_barajar = st.button("🔮 Consultar el Espejo")
 if boton_barajar:
     if not pregunta:
         st.warning("Por favor, introduce una consulta para activar el mecanismo de sincronía.")
-    elif not api_key_input:
-        st.error("Se requiere una OpenAI API Key válida en la barra lateral para generar la interpretación.")
     else:
         num_cartas = 1 if "1 Carta" in tipo_tirada else 3
         claves_disponibles = list(ARCANOS_MAYORES.keys())
@@ -129,36 +127,27 @@ if boton_barajar:
         client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
         cartas_texto_bloque = ""
         
-        for idx, c in enumerate(tirada_final):
-            pos = posiciones_nombre[idx] if num_cartas == 3 else "Foco Único"
-            ori = "Invertida" if c["invertida"] else "Al Derecho"
-            conceptos = c["datos"]["reversed"] if c["invertida"] else c["datos"]["upright"]
-            cartas_texto_bloque += f"- {pos}: {c['datos']['nombre']} ({ori}). Conceptos: {conceptos}\n"
-        
-        tipo_enfoque_texto = "MÍSTICO"
-        if "Psicología" in enfoque_oraculo:
-            tipo_enfoque_texto = "PSICOLOGÍA"
-        
-        prompt_definitivo = PROMPT_MAESTRO_BASE.format(
+        # Procesar los datos de las cartas para el prompt
+        for carta in tirada_final:
+            orientacion = "Invertida" if carta["invertida"] else "Al Derecho"
+            significado = carta["datos"]["reversed"] if carta["invertida"] else carta["datos"]["upright"]
+            cartas_texto_bloque += f"- {carta['datos']['nombre']} ({orientacion}): Arquetipo '{carta['datos']['arquetipo']}'. Significado: {significado}\n"
+            
+        # Construir el prompt unificado
+        prompt_final = PROMPT_MAESTRO_BASE.format(
             pregunta_usuario=pregunta,
-            enfoque_solicitado=tipo_enfoque_texto,
+            enfoque_solicitado=enfoque_oraculo,
             datos_de_las_cartas_extraidas=cartas_texto_bloque
         )
         
-        with st.spinner("El oráculo sintoniza con el enfoque elegido..."):
-            response = client.chat.completions.create(
-                model="gpt-4o",
-                messages=[{"role": "user", "content": prompt_definitivo}],
-                max_tokens=800,
-                temperature=0.7
-            )
-            
-            lista_respuestas = getattr(response, "choices")
-            primer_elemento = next(iter(lista_respuestas))
-            bloque_mensaje = getattr(primer_elemento, "message")
-            texto_completo = getattr(bloque_mensaje, "content")
-
-        # Renderizado directo en la interfaz (Sin recortes, sin riesgo de fallos)
-        if texto_completo:
-            st.markdown("---")
-            st.markdown(texto_completo)
+        # Enviar petición a OpenAI
+        with st.spinner("El espejo está procesando tu destino..."):
+            try:
+                response = client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[{"role": "user", "content": prompt_final}]
+                )
+                # Mostrar el resultado final en la interfaz
+                st.markdown(response.choices.message.content)
+            except Exception as e:
+                st.error(f"Error al conectar con el oráculo de OpenAI: {e}")
