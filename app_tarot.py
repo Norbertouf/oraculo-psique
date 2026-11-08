@@ -3,7 +3,7 @@ import secrets
 from openai import OpenAI
 
 # =====================================================================
-# 1. CONFIGURACIÓN DE LA PÁGINA Y MEMORIA
+# 1. CONFIGURACIÓN DE LA PÁGINA
 # =====================================================================
 st.set_page_config(
     page_title="Oráculo de la Psique - Doble Espejo",
@@ -12,16 +12,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# BARRA LATERAL: Ajustes del Mazo
+# BARRA LATERAL: Clave y Ajustes del Mazo
+
 st.sidebar.markdown("---")
 st.sidebar.subheader("⚙️ Ajustes del Mazo")
 permitir_invertidas = st.sidebar.checkbox("Permitir cartas invertidas", value=True, help="Si se desactiva, todas las cartas saldrán obligatoriamente al derecho.")
-
-# Inicializar memoria de sesión para retener los resultados y evitar borrados reactivos
-if "tirada" not in st.session_state:
-    st.session_state.tirada = None
-if "interpretacion" not in st.session_state:
-    st.session_state.interpretacion = None
 
 # =====================================================================
 # 2. BASE DE DATOS DE ARCANOS MAYORES (22 CARTAS COMPLETAS)
@@ -32,10 +27,10 @@ ARCANOS_MAYORES = {
     "2": {"nombre": "La Sacerdotisa", "arquetipo": "La Inacción Sabia", "upright": "Secretos por revelar, intuición profunda, paciencia. Tiempo de maduración en silencio.", "reversed": "Intenciones ocultas que dañan, frialdad, superficialidad o ignorar la verdad que ya sabes."},
     "3": {"nombre": "La Emperatriz", "arquetipo": "La Fuerza Creativa", "upright": "Abundancia, crecimiento, fertilidad en proyectos o relaciones. Expresión artística.", "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."},
     "4": {"nombre": "El Emperador", "arquetipo": "La Estructura", "upright": "Estabilidad, protección, situación con poder y límites claros. Autoridad sólida.", "reversed": "Rigidez mental extrema, tiranía, control asfixiante o caos total por falta de disciplina."},
-    "5": {"nombre": "El Hierofante", "arquetipo": "El Guía Espiritual", "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas.", "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."},
+    "5": {"nombre": "El Hierofante", "arquetipo": "El Guía Espiritual", "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas establecidas.", "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."},
     "6": {"nombre": "Los Enamorados", "arquetipo": "La Elección", "upright": "Alineación de valores, decisiones cruciales del corazón, armonía en relaciones y encrucijadas.", "reversed": "Desalineación, conflicto interno, malas elecciones afectivas o falta de compromiso."},
-    "7": {"nombre": "El Carro", "arquetipo": "La Voluntad Dirigida", "upright": "Éxito por esfuerzo, determinación, control sobre fuerzas opuestas y avance firme.", "reversed": "Falta de dirección, pérdida de control, agresividad desmedida o estancamiento."},
-    "8": {"nombre": "La Fuerza", "arquetipo": "El Dominio Interior", "upright": "Coraje, paciencia, compasión y control de los impulsos primarios a través de la suavidad.", "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad."},
+    "7": {"nombre": "El Carro", "arquetipo": "La Voluntad Dirigida", "upright": "Éxito por esfuerzo, determinación, control sobre fuerzas opuestas y avance firme.", "reversed": "Falta de dirección, pérdida de control, agresividad desmedida o estancamiento por dudas."},
+    "8": {"nombre": "La Fuerza", "arquetipo": "El Dominio Interior", "upright": "Coraje, paciencia, compasión y control de los impulsos primarios a través de la suavidad.", "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad paralizante."},
     "9": {"nombre": "El Ermitaño", "arquetipo": "La Introspección", "upright": "Búsqueda de la verdad interior, soledad voluntaria, sabiduría del tiempo y prudencia.", "reversed": "Aislamiento destructivo, rechazo a la ayuda, obsesión con el pasado o imprudencia."},
     "10": {"nombre": "La Rueda de la Fortuna", "arquetipo": "El Cambio Inevitable", "upright": "Ciclos, giros del destino, golpes de suerte, evolución necesaria del entorno.", "reversed": "Resistencia al cambio, mala racha temporal, repetición de patrones del pasado."},
     "11": {"nombre": "La Justicia", "arquetipo": "La Causa y Efecto", "upright": "Verdad, equidad, consecuencias legales o morales equilibradas. Honestidad radical.", "reversed": "Injusticia, sesgo, falta de rendición de cuentas, desequilibrio o juicios severos."},
@@ -52,12 +47,12 @@ ARCANOS_MAYORES = {
 }
 
 # =====================================================================
-# 3. EL PROMPT MAESTRO INTELIGENTE UNIFICADO
+# 3. EL PROMPT MAESTRO INTELIGENTE UNIFICADO (FORMATO PLANO DESDE LA IA)
 # =====================================================================
 PROMPT_MAESTRO_BASE = """Actúa como un Consultor de Tarot Profesional. Debes adoptar estrictamente el enfoque solicitado por el usuario:
 
-- Si el enfoque es 'FORMATO PSICOLÓGICO', actúa como un Psicólogo Junguiano basado en arquetipos. Sé radicalmente HONESTO, REALISTA y DIRECTO. Tienes prohibido complacer. Analiza el bloqueo subconsciente.
-- Si el enfoque es 'FORMATO MÍSTICO', actúa como un Lector de Tarot Tradicional y místico. Analiza la tendencia de los acontecimientos, los hechos reales cotidianos y el augurio de los símbolos visuales.
+- Si el enfoque es 'PSICOLOGÍA', actúa como un Psicólogo Junguiano basado en arquetipos. Sé radicalmente HONESTO, REALISTA y DIRECTO. Tienes prohibido complacer. Analiza el bloqueo subconsciente.
+- Si el enfoque es 'MÍSTICO', actúa como un Lector de Tarot Tradicional y místico. Analiza la tendencia de los acontecimientos, los hechos reales cotidianos y el augurio de los símbolos visuales.
 
 Pregunta del usuario: "{pregunta_usuario}"
 Enfoque solicitado: {enfoque_solicitado}
@@ -82,6 +77,7 @@ Estructura tu respuesta exactamente con este formato de títulos en Markdown par
 # =====================================================================
 st.title("🔮 Oráculo de la Psique")
 
+# 🚀 TUS CRÉDITOS DE AUTOR DESTACADOS EN LA PARTE SUPERIOR
 st.markdown("""
     <div style='text-align: center; margin-top: -15px; margin-bottom: 20px;'>
         <span style='color: #D4AF37; font-weight: bold; font-family: monospace; font-size: 1.1rem;'>🔬 Noruf_Labs</span>
@@ -99,4 +95,73 @@ st.info("📘 RIGOR TEÓRICO COMPARTIDO: Elige si deseas un análisis de psicolo
 
 pregunta = st.text_input("Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Hablaremos ella y yo mañana por teléfono?")
 
-# Definir la lista de opciones de forma lineal y compacta
+enfoque_oraculo = st.selectbox("Elige el Alma del Tarotista:", [
+    "🧠 Psicología Junguiana (Espejo Interno y Bloqueos)", 
+    "✨ Tradición Mística (Pronóstico, Símbolos y Destino)"
+])
+
+tipo_tirada = st.selectbox("Selecciona la disposición de la lectura:", ["Espejo Directo (1 Carta)", "Evolución Cruda (3 Cartas)"])
+boton_barajar = st.button("🔮 Consultar el Espejo")
+
+# =====================================================================
+# 5. LÓGICA DE BARAJADO Y DETECCIÓN DE INVERTIDAS
+# =====================================================================
+if boton_barajar:
+    if not pregunta:
+        st.warning("Por favor, introduce una consulta para activar el mecanismo de sincronía.")
+    else:
+        num_cartas = 1 if "1 Carta" in tipo_tirada else 3
+        claves_disponibles = list(ARCANOS_MAYORES.keys())
+        tirada_final = []
+        
+        for _ in range(num_cartas):
+            elegida = secrets.choice(claves_disponibles)
+            claves_disponibles.remove(elegida)
+            
+            if permitir_invertidas:
+                invertida = secrets.randbelow(100) < 25
+            else:
+                invertida = False
+                
+            tirada_final.append({"datos": ARCANOS_MAYORES[elegida], "invertida": invertida})
+            
+        st.markdown("### Arquetipos Convocados:")
+        columnas_pantalla = st.columns(num_cartas)
+        posiciones_nombre = ["Origen / Bloqueo", "Realidad Presente", "Desenlace Potencial"]
+        
+        for idx, carta in enumerate(tirada_final):
+            with columnas_pantalla[idx]:
+                ori_txt = "Invertida" if carta["invertida"] else "Al Derecho"
+                st.metric(label=posiciones_nombre[idx] if num_cartas == 3 else "Eje Central", value=carta["datos"]["nombre"], delta=ori_txt if permitir_invertidas else None)
+
+        # =====================================================================
+        # 6. ENTRADA Y PROCESAMIENTO DE LA RESPUESTA (ESTRUCTURA 100% PLANA)
+        # =====================================================================
+        texto_completo = ""
+        client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+        cartas_texto_bloque = ""
+        
+        # Procesar los datos de las cartas para el prompt
+        for carta in tirada_final:
+            orientacion = "Invertida" if carta["invertida"] else "Al Derecho"
+            significado = carta["datos"]["reversed"] if carta["invertida"] else carta["datos"]["upright"]
+            cartas_texto_bloque += f"- {carta['datos']['nombre']} ({orientacion}): Arquetipo '{carta['datos']['arquetipo']}'. Significado: {significado}\n"
+            
+        # Construir el prompt unificado
+        prompt_final = PROMPT_MAESTRO_BASE.format(
+            pregunta_usuario=pregunta,
+            enfoque_solicitado=enfoque_oraculo,
+            datos_de_las_cartas_extraidas=cartas_texto_bloque
+        )
+        
+        # Enviar petición a OpenAI
+        with st.spinner("El espejo está procesando tu destino..."):
+            try:
+                response = client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[{"role": "user", "content": prompt_final}]
+                )
+                # Mostrar el resultado final en la interfaz
+                st.markdown(response.choices.message.content)
+            except Exception as e:
+                st.error(f"Error al conectar con el oráculo de OpenAI: {e}")
