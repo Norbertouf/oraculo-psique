@@ -3,7 +3,7 @@ import secrets
 from openai import OpenAI
 
 # =====================================================================
-# 1. CONFIGURACIÓN DE LA PÁGINA
+# 1. CONFIGURACIÓN DE LA PÁGINA Y MEMORIA
 # =====================================================================
 st.set_page_config(
     page_title="Oráculo de la Psique - Doble Espejo",
@@ -17,7 +17,7 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("⚙️ Ajustes del Mazo")
 permitir_invertidas = st.sidebar.checkbox("Permitir cartas invertidas", value=True, help="Si se desactiva, todas las cartas saldrán obligatoriamente al derecho.")
 
-# Inicializar memoria de sesión para que no se borren los resultados al hacer clic
+# Inicializar memoria de sesión para retener los resultados y evitar borrados reactivos
 if "tirada" not in st.session_state:
     st.session_state.tirada = None
 if "interpretacion" not in st.session_state:
@@ -44,8 +44,8 @@ ARCANOS_MAYORES = {
     "14": {"nombre": "La Templanza", "arquetipo": "La Alquimia Interna", "upright": "Equilibrio, moderación, paciencia, mezcla armónica de opuestos y sanación emocional.", "reversed": "Desequilibrio, excesos, falta de paciencia, intereses en conflicto o desconexión."},
     "15": {"nombre": "El Diablo", "arquetipo": "La Sombra", "upright": "Obsesiones, ataduras materiales, magnetismo sexual intenso, confrontación con dependencias.", "reversed": "Liberación dolorosa de vicios y cadenas, o sumisión total a ilusiones destructivas."},
     "16": {"nombre": "La Torre", "arquetipo": "Ruptura del Ego", "upright": "Colapso abrupto de planes o ilusiones falsas. Un golpe inesperado que limpia el terreno.", "reversed": "Evitar un colapso inminente temporalmente, vivir atrapado en una estructura agrietada."},
-    "17": {"nombre": "La Estrella", "arquetipo": "La Esperanza Divina", "upright": "Fe en el futuro, renovación espiritual, serenidad, inspiración y sanación profunda.", "reversed": "Falta de fe, desilusión, pesimismo, bloqueos creativos o falsas expectativas."},
-    "18": {"nombre": "La Luna", "arquetipo": "El Subconsciente", "upright": "Ilusiones, miedos ocultos, sueños vívidos, intuición y verdades escondidas en la sombra.", "reversed": "Liberación del miedo, confusión que se aclarará, secretos revelados o autoengaño expuesto."},
+    "17": {"nombre": "La Estrella", "arquetipo": "La Esperanza Divina", "upright": "Fe en el futuro, renovación espiritual, serenidad, inspiración y sanación profunda.", "reversed": "Falta de faith, desilusión, pesimismo, bloqueos creativos o falsas expectativas."},
+    "18": {"nombre": "La Luna", "arquetipo": "El Subconsciente", "upright": "Ilusiones, miedos ocultos, sueños vívidos, intuición y verdades escondidas en la sombra.", "reversed": "Liberación del miedo, confusión que se aclara, secretos revelados o autoengaño expuesto."},
     "19": {"nombre": "El Sol", "arquetipo": "La Claridad Total", "upright": "Éxito rotundo, vitalidad, alegría pura, verdad revelada a la luz y conexión auténtica.", "reversed": "Felicidad nublada temporalmente, orgullo excesivo, necesidad de validación o retrasos mínimos."},
     "20": {"nombre": "El Juicio", "arquetipo": "El Despertar", "upright": "Llamado interno, absolución del pasado, decisiones definitivas que transforman la vida.", "reversed": "Dudas sobre el propio camino, autoreproche, ignorar la intuición o miedo a renovarse."},
     "21": {"nombre": "El Mundo", "arquetipo": "La Realización", "upright": "Logro absoluto, cierre exitoso de un gran viaje, integración perfecta y plenitud.", "reversed": "Falta de cierre, proyectos inacabados, metas frustradas en el último paso o estancamiento."}
@@ -56,8 +56,8 @@ ARCANOS_MAYORES = {
 # =====================================================================
 PROMPT_MAESTRO_BASE = """Actúa como un Consultor de Tarot Profesional. Debes adoptar estrictamente el enfoque solicitado por el usuario:
 
-- Si el enfoque es 'PSICOLOGÍA', actúa como un Psicólogo Junguiano basado en arquetipos. Sé radicalmente HONESTO, REALISTA y DIRECTO. Tienes prohibido complacer. Analiza el bloqueo subconsciente.
-- Si el enfoque es 'MÍSTICO', actúa como un Lector de Tarot Tradicional y místico. Analiza la tendencia de los acontecimientos, los hechos reales cotidianos y el augurio de los símbolos visuales.
+- Si el enfoque es 'FORMATO PSICOLÓGICO', actúa como un Psicólogo Junguiano basado en arquetipos. Sé radicalmente HONESTO, REALISTA y DIRECTO. Tienes prohibido complacer. Analiza el bloqueo subconsciente.
+- Si el enfoque es 'FORMATO MÍSTICO', actúa como un Lector de Tarot Tradicional y místico. Analiza la tendencia de los acontecimientos, los hechos reales cotidianos y el augurio de los símbolos visuales.
 
 Pregunta del usuario: "{pregunta_usuario}"
 Enfoque solicitado: {enfoque_solicitado}
