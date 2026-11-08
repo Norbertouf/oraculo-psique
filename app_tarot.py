@@ -148,6 +148,6 @@ if boton_barajar:
                     messages=[{"role": "user", "content": prompt_final}]
                 )
                 # Mostrar el resultado final en la interfaz
-                st.markdown(response.choices.message.content)
+                st.markdown(response.choices[0].message.content)
             except Exception as e:
                 st.error(f"Error al conectar con el oráculo de OpenAI: {e}")
