@@ -9,10 +9,10 @@ st.set_page_config(
     page_title="Oráculo de la Psique - Noruf_Labs",
     page_icon="🔮",
     layout="wide",
-    initial_sidebar_state="collapsed"  # Oculta la barra lateral para maximizar espacio en móvil
+    initial_sidebar_state="collapsed"
 )
 
-# AJUSTES SUTILES EN LA BARRA LATERAL (Por si el usuario quiere avanzados)
+# AJUSTES SUTILES EN LA BARRA LATERAL
 st.sidebar.subheader("⚙️ Ajustes Avanzados")
 permitir_invertidas = st.sidebar.checkbox("Permitir cartas invertidas", value=True)
 
@@ -23,7 +23,7 @@ ARCANOS_MAYORES = {
     "0": {"nombre": "El Loco", "arquetipo": "El Impulso Ciego", "upright": "Nuevos caminos, saltos de fe, inicio de una aventura inesperada. Libertad absoluta.", "reversed": "Irresponsabilidad, andar a ciegas, dar pasos en falso o huir de la realidad por inmadurez."},
     "1": {"nombre": "El Mago", "arquetipo": "El Alquimista", "upright": "Capacidad para manifestar, inteligencia práctica, todas las herramientas listas para usarse.", "reversed": "Talento desperdiciado, trucos, manipulación, promesas falsas o indecisión paralizante."},
     "2": {"nombre": "La Sacerdotisa", "arquetipo": "La Inacción Sabia", "upright": "Secretos por revelar, intuición profunda, paciencia. Tiempo de maduración en silencio.", "reversed": "Intenciones ocultas que dañan, frialdad, superficialidad o ignorar la verdad que ya sabes."},
-    "3": {"nombre": "La Emperatriz", "arquetipo": "La Fuerza Creativa", "upright": "Abundancia, crecimiento, fertility en proyectos o relaciones. Expresión artística.", "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."},
+    "3": {"nombre": "La Emperatriz", "arquetipo": "La Fuerza Creativa", "upright": "Abundancia, crecimiento, fertilidad en proyectos o relaciones. Expresión artística.", "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."},
     "4": {"nombre": "El Emperador", "arquetipo": "La Estructura", "upright": "Estabilidad, protección, situación con poder y límites claros. Autoridad sólida.", "reversed": "Rigidez mental extrema, tiranía, control asfixiante o caos total por falta de disciplina."},
     "5": {"nombre": "El Hierofante", "arquetipo": "El Guía Espiritual", "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas.", "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."},
     "6": {"nombre": "Los Enamorados", "arquetipo": "La Elección", "upright": "Alineación de valores, decisiones cruciales del corazón, armonía en relaciones y encrucijadas.", "reversed": "Desalineación, conflicto interno, malas elecciones afectivas o falta de compromiso."},
@@ -45,7 +45,7 @@ ARCANOS_MAYORES = {
 }
 
 # =====================================================================
-# 3. EL PROMPT MAESTRO INTELIGENTE UNIFICADO (FORMATO PLANO)
+# 3. EL PROMPT MAESTRO INTELIGENTE UNIFICADO
 # =====================================================================
 PROMPT_MAESTRO_BASE = """Actúa como un Consultor de Tarot Profesional de élite. Debes adoptar estrictamente el enfoque solicitado:
 
@@ -73,29 +73,34 @@ Estructura tu respuesta exactamente con este formato de títulos en Markdown:
 [Ofrece la recomendación práctica o decreto místico definitivo para el consultante]."""
 
 # =====================================================================
-# 4. ELEMENTOS VISUALES (DISEÑO LIMPIO E INTUITIVO)
+# 4. ELEMENTOS VISUALES Y ADVERTENCIAS (INTERFAZ COMPLETA Y PROTEGIDA)
 # =====================================================================
 st.title("🔮 Oráculo de la Psique")
 
-# Firma elegante de marca Noruf_Labs
+# Firma de marca Noruf_Labs
 st.markdown("""
-    <div style='text-align: center; margin-top: -15px; margin-bottom: 25px;'>
+    <div style='text-align: center; margin-top: -15px; margin-bottom: 20px;'>
         <span style='color: #D4AF37; font-weight: bold; font-family: monospace; font-size: 1.1rem;'>🔬 Noruf_Labs</span>
         <span style='color: #8a8ba0; margin: 0 10px;'>|</span>
         <span style='color: #e0e0e6; font-size: 0.9rem;'><b>Autor:</b> Norberto Urrea Falla</span>
     </div>
 """, unsafe_allow_html=True)
 
-# Entrada intuitiva de texto
-pregunta = st.text_input("1. ¿Qué deseas consultar con el espejo?", placeholder="Ej. ¿Es un buen momento para iniciar mi proyecto?")
+st.caption("Un software intuitivo con respuestas claras e inmediatas")
 
-# Selectores limpios y sin complicaciones
-enfoque_oraculo = st.selectbox("2. Elige el enfoque de tu lectura:", [
-    "🧠 Psicología Junguiana (Análisis interno y Bloqueos)", 
-    "✨ Tradición Mística (Destino, Símbolos y Tendencias)"
+# 🛡️ ADVERTENCIAS DE RESPONSABILIDAD RESTAURADAS
+st.error("⚠️ ADVERTENCIA DE HONESTIDAD: El tarot no es una ciencia demostrada. Considéralo un entretenimiento introspectivo.")
+st.info("📘 RIGOR TEÓRICO COMPARTIDO: Elige si deseas un análisis de psicología arquetípica (Jung) o un pronóstico místico clásico (Marsella).")
+
+# Formulario ordenado
+pregunta = st.text_input("1. Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Es buen momento para tomar una decisión importante?")
+
+enfoque_oraculo = st.selectbox("2. Elige el Alma del Tarotista:", [
+    "🧠 Psicología Junguiana (Espejo Interno y Bloqueos)", 
+    "✨ Tradición Mística (Pronóstico, Símbolos y Destino)"
 ])
 
-# Menú simplificado al máximo con las 2 opciones más usadas
+# Diccionario unificado para los desplegables
 MECANISMO_TIRADAS = {
     "Respuesta Rápida (1 Carta)": {
         "num": 1, 
@@ -103,10 +108,3 @@ MECANISMO_TIRADAS = {
     },
     "Línea de Tiempo (3 Cartas: Pasado - Presente - Futuro)": {
         "num": 3, 
-        "nombres": ["Pasado (Origen)", "Presente (Tu realidad)", "Futuro (Desenlace)"]
-    }
-}
-
-tipo_tirada = st.selectbox("3. Elige el tipo de tirada:", list(MECANISMO_TIRADAS.keys()))
-
-st.markdown("<br>", unsafe_allow_html=True)
