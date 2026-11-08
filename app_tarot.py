@@ -28,7 +28,7 @@ if "interpretacion" not in st.session_state:
 # =====================================================================
 ARCANOS_MAYORES = {
     "0": {"nombre": "El Loco", "arquetipo": "El Impulso Ciego", "upright": "Nuevos caminos, saltos de fe, inicio de una aventura inesperada. Libertad absoluta.", "reversed": "Irresponsabilidad, andar a ciegas, dar pasos en falso o huir de la realidad por inmadurez."},
-    "1": {"nombre": "El Mago", "arquetipo": "El Alquimista", "upright": "Capacidad para manifestar, inteligencia práctica, todas las herramientas listas para usarse.", "reversed": "Talento desperdiciado, trucos, manipulación, promesas falsas o indecisión paralizante."},
+    "1": {"nombre": "El Mago", "arquetipo": "El Alquimista", "upright": "Capacidad para manifestar, intelligence práctica, todas las herramientas listas para usarse.", "reversed": "Talento desperdiciado, trucos, manipulación, promesas falsas o indecisión paralizante."},
     "2": {"nombre": "La Sacerdotisa", "arquetipo": "La Inacción Sabia", "upright": "Secretos por revelar, intuición profunda, paciencia. Tiempo de maduración en silencio.", "reversed": "Intenciones ocultas que dañan, frialdad, superficialidad o ignorar la verdad que ya sabes."},
     "3": {"nombre": "La Emperatriz", "arquetipo": "La Fuerza Creativa", "upright": "Abundancia, crecimiento, fertilidad en proyectos o relaciones. Expresión artística.", "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."},
     "4": {"nombre": "El Emperador", "arquetipo": "La Estructura", "upright": "Estabilidad, protección, situación con poder y límites claros. Autoridad sólida.", "reversed": "Rigidez mental extrema, tiranía, control asfixiante o caos total por falta de disciplina."},
@@ -44,7 +44,7 @@ ARCANOS_MAYORES = {
     "14": {"nombre": "La Templanza", "arquetipo": "La Alquimia Interna", "upright": "Equilibrio, moderación, paciencia, mezcla armónica de opuestos y sanación emocional.", "reversed": "Desequilibrio, excesos, falta de paciencia, intereses en conflicto o desconexión."},
     "15": {"nombre": "El Diablo", "arquetipo": "La Sombra", "upright": "Obsesiones, ataduras materiales, magnetismo sexual intenso, confrontación con dependencias.", "reversed": "Liberación dolorosa de vicios y cadenas, o sumisión total a ilusiones destructivas."},
     "16": {"nombre": "La Torre", "arquetipo": "Ruptura del Ego", "upright": "Colapso abrupto de planes o ilusiones falsas. Un golpe inesperado que limpia el terreno.", "reversed": "Evitar un colapso inminente temporalmente, vivir atrapado en una estructura agrietada."},
-    "17": {"nombre": "La Estrella", "arquetipo": "La Esperanza Divina", "upright": "Fe en el futuro, renovación espiritual, serenidad, inspiración y sanación profunda.", "reversed": "Falta de faith, desilusión, pesimismo, bloqueos creativos o falsas expectativas."},
+    "17": {"nombre": "La Estrella", "arquetipo": "La Esperanza Divina", "upright": "Fe en el futuro, renovación espiritual, serenidad, inspiración y sanación profunda.", "reversed": "Falta de fe, desilusión, pesimismo, bloqueos creativos o falsas expectativas."},
     "18": {"nombre": "La Luna", "arquetipo": "El Subconsciente", "upright": "Ilusiones, miedos ocultos, sueños vívidos, intuición y verdades escondidas en la sombra.", "reversed": "Liberación del miedo, confusión que se aclara, secretos revelados o autoengaño expuesto."},
     "19": {"nombre": "El Sol", "arquetipo": "La Claridad Total", "upright": "Éxito rotundo, vitalidad, alegría pura, verdad revelada a la luz y conexión auténtica.", "reversed": "Felicidad nublada temporalmente, orgullo excesivo, necesidad de validación o retrasos mínimos."},
     "20": {"nombre": "El Juicio", "arquetipo": "El Despertar", "upright": "Llamado interno, absolución del pasado, decisiones definitivas que transforman la vida.", "reversed": "Dudas sobre el propio camino, autoreproche, ignorar la intuición o miedo a renovarse."},
@@ -99,5 +99,4 @@ st.info("📘 RIGOR TEÓRICO COMPARTIDO: Elige si deseas un análisis de psicolo
 
 pregunta = st.text_input("Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Hablaremos ella y yo mañana por teléfono?")
 
-enfoque_oraculo = st.selectbox("Elige el Alma del Tarotista:", [
-    "🧠 Psicología Junguiana (Espejo Interno y Bloqueos)", 
+# Definir la lista de opciones de forma lineal y compacta en una sola línea para evitar fallos de lectura de llaves
