@@ -93,7 +93,7 @@ st.caption("Un software intuitivo con respuestas claras e inmediatas")
 st.error("⚠️ ADVERTENCIA DE HONESTIDAD: El tarot no es una ciencia demostrada. Considéralo un entretenimiento introspectivo.")
 st.info("📘 RIGOR TEÓRICO COMPARTIDO: Elige si deseas un análisis de psicología arquetípica (Jung) o un pronóstico místico clásico (Marsella).")
 
-pregunta = st.text_input("Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Hablaremos ella y yo mañana por teléfono?")
+pregunta = st.text_input("Formula tu consulta con honestidad (el espejo no miente):", placeholder="Ej. ¿Iré a Islandia?")
 
 enfoque_oraculo = st.selectbox("Elige el Alma del Tarotista:", [
     "🧠 Psicología Junguiana (Espejo Interno y Bloqueos)", 
