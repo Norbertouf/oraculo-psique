@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "0",
+    "numeroRomano": "0",
+    "nombre": "El Loco",
+    "arquetipo": "El Impulso Ciego",
+    "esencia": {
+      "upright": "Nuevos caminos, saltos de fe, inicio de una aventura inesperada. Libertad absoluta.",
+      "reversed": "Irresponsabilidad, andar a ciegas, dar pasos en falso o huir de la realidad por inmadurez."
+    },
+    "simboloSvg": "fool",
+    "palabrasClave": {
+      "upright": ["vértigo", "ruptura", "despegue"],
+      "reversed": ["huida", "imprudencia", "autoengaño"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Salta sin red; la lucidez llegará cuando ya estés en el aire.",
+        "ejeCentral": "Tu cabeza lleva semanas redactando contratos de seguridad para un viaje que solo admite equipaje de mano. El Loco no es ingenuidad: es la parte de ti que se cansó de pedirle permiso al miedo para empezar de nuevo.",
+        "origen": "En el fondo no buscas certezas; vienes huyendo de una jaula tan cómoda que casi olvidaste que tenía barrotes.",
+        "presente": "Estiras el pie sobre el borde del andén mientras calculas riesgos que nadie puede resolver desde la silla.",
+        "desenlace": "Si sueltas la necesidad de garantías previas, estrenas terreno propio antes de que termine el mes.",
+        "consejo": "Cierra la hoja de cálculo, fija una fecha de salida esta semana y asume el vértigo como señal de vida.",
+        "preguntaMesa": "¿Qué excusa elegante estás usando hoy para disfrazar tu miedo de prudencia?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Confundes valentía con huir hacia delante sin pagar las consecuencias.",
+        "ejeCentral": "Hay una diferencia abismal entre soltar amarras y abandonar el barco cuando toca remar. El Loco invertido retrata el impulso adolescente de quemar puentes solo para no mirar el desorden que dejas detrás.",
+        "origen": "Arrastras decisiones tomadas en caliente donde confundiste adrenalina con convicción.",
+        "presente": "Improvisas sobre la marcha esperando que el azar tape los agujeros de una planificación inexistente.",
+        "desenlace": "Si sigues avanzando con los ojos cerrados, el golpe contra la realidad será ruidoso y evitable.",
+        "consejo": "Frena cuarenta y ocho horas, pon cifras y nombres sobre la mesa y no firmes nada por puro aburrimiento.",
+        "preguntaMesa": "Si alguien que quieres hiciera exactamente lo que planeas, ¿le aplaudirías o le quitarías las llaves?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: La puerta se abre donde el mapa termina; camina ligero.",
+        "ejeCentral": "El viento cambia de dirección sin avisar a los meteorólogos. Aparece una bifurcación imprevista en tu camino: no trae instrucciones impresas, pero sí la frescura exacta de lo que aún no ha sido contaminado por la rutina.",
+        "origen": "Un ciclo gastado se desprendió de ti como piel seca para dejarte espacio libre.",
+        "presente": "Las piezas se mueven rápido y premian a quien responde con reflejos limpios en lugar de sospechas.",
+        "desenlace": "Un comienzo inesperado que reordena el tablero a tu favor si no te aferras al equipaje viejo.",
+        "consejo": "Viaja ligero de rencores y no intentes predecir el kilómetro diez antes de dar el primer paso.",
+        "preguntaMesa": "¿Qué peso inútil dejarías en la puerta hoy mismo si supieras que nadie te lo va a cobrar?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: El suelo cede bajo tus pies; detente antes de dar el paso.",
+        "ejeCentral": "Caminas mirando las nubes mientras el sendero gira hacia un barranco. Los signos advierten descuido, promesas demasiado fáciles y una prisa ciega que ignora las señales de advertencia en el camino.",
+        "origen": "Una ligereza del pasado dejó cabos sueltos que ahora reclaman su peaje.",
+        "presente": "Hay ruido, distracción y alguien en el entorno que promete atajos sin conocer el terreno.",
+        "desenlace": "Un tropiezo menor pero embarazoso si insistes en avanzar sin mirar dónde pisas.",
+        "consejo": "Guarda silencio sobre tus planes esta semana y espera a que el polvo se asiente.",
+        "preguntaMesa": "¿Cuál es la señal evidente que todo el mundo ve menos tú?"
+      }
+    }
+  },
+  {
+    "id": "1",
+    "numeroRomano": "I",
+    "nombre": "El Mago",
+    "arquetipo": "El Alquimista",
+    "esencia": {
+      "upright": "Capacidad para manifestar, inteligencia práctica, todas las herramientas listas para usarse.",
+      "reversed": "Talento desperdiciado, trucos, manipulación, promesas falsas o indecisión paralizante."
+    },
+    "simboloSvg": "magician",
+    "palabrasClave": {
+      "upright": ["oficio", "voluntad", "ejecución"],
+      "reversed": ["artificio", "cinismo", "parálisis"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Tienes las herramientas y el oficio; deja de ensayar y ejecuta.",
+        "ejeCentral": "No te falta información ni talento: te sobra teatro preparatorio. El Mago pone los cuatro instrumentos sobre la mesa y te quita la coartada de no estar listo; lo único que falta es que pongas tu firma en el resultado.",
+        "origen": "Años de aprendizaje silencioso te dieron exactamente la destreza que exige este momento.",
+        "presente": "Tu cabeza está afilada y tu palabra convence, pero sigues puliendo borradores en lugar de publicar.",
+        "desenlace": "Resultados concretos y rápidos en cuanto concentres tu voluntad en una sola palanca.",
+        "consejo": "Elige hoy la acción que más te expone y ejecútala antes de que acabe el día.",
+        "preguntaMesa": "¿Qué harías mañana mismo si supieras que nadie va a evaluarte durante los primeros seis meses?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Desperdicias ingenio en trucos para no enfrentar el trabajo real.",
+        "ejeCentral": "Cuando el talento se vuelve perezoso, fabrica cortinas de humo. Estás usando tu inteligencia para justificar por qué no avanzas o para vender una seguridad que por dentro hace agua.",
+        "origen": "Promesas rotas contigo mismo dejaron una grieta de cinismo cada vez que empiezas algo.",
+        "presente": "Mucho discurso brillante, poca ejecución verificable y una sospecha constante de estar fingiendo.",
+        "desenlace": "Desgaste de credibilidad y frustración seca si no abandonas el ilusionismo.",
+        "consejo": "Corta las explicaciones largas, admite qué parte no dominas y vuelve a lo básico sin adornos.",
+        "preguntaMesa": "¿En qué parte de esta historia estás vendiendo humo para impresionar a la galería?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Los elementos obedecen a tu mano; inicia la obra ahora.",
+        "ejeCentral": "La mesa está servida y el pulso es firme. Lo que nombres con claridad y respaldes con hechos encontrará cauce inmediato en conversaciones clave, acuerdos o iniciativas nacidas de tu propio ingenio.",
+        "origen": "Una idea certera o un encuentro oportuno encendió la chispa inicial.",
+        "presente": "Destreza verbal, ingenio práctico y puertas que ceden ante una propuesta bien planteada.",
+        "desenlace": "Materialización rápida y favorable de aquello que te atrevas a poner en marcha.",
+        "consejo": "Habla claro, pon fecha de inicio y no regales tu fuerza en asuntos menores.",
+        "preguntaMesa": "Si tuvieras que resumir tu verdadera intención en diez palabras, ¿seguiría sonando tan noble?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Hay doble filo en la mesa; desconfía del brillo fácil.",
+        "ejeCentral": "Las palabras suenan seductoras, pero las manos esconden el truco. Puede haber alguien prometiendo oro sin respaldo o una dispersión en tu propia intención que impide que el proyecto cuaje.",
+        "origen": "Un pacto ambiguo o una media verdad torció el propósito original.",
+        "presente": "Enredos, malentendidos calculados y herramientas buenas usadas sin rumbo.",
+        "desenlace": "Esfuerzo malgastado si no exiges pruebas tangibles antes de comprometerte.",
+        "consejo": "No firmes bajo encantamiento; pide hechos verificables y guarda tus cartas.",
+        "preguntaMesa": "¿A quién le conviene que esta situación siga siendo tan confusa?"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "numeroRomano": "II",
+    "nombre": "La Sacerdotisa",
+    "arquetipo": "La Inacción Sabia",
+    "esencia": {
+      "upright": "Secretos por revelar, intuición profunda, paciencia. Tiempo de maduración en silencio.",
+      "reversed": "Intenciones ocultas que dañan, frialdad, superficialidad o ignorar la verdad que ya sabes."
+    },
+    "simboloSvg": "priestess",
+    "palabrasClave": {
+      "upright": ["silencio", "olfato", "contención"],
+      "reversed": ["negación", "frialdad", "secreto"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Calla y observa; aún faltan datos decisivos.",
+        "ejeCentral": "Tu impulso quiere respuestas inmediatas, pero el tablero real está debajo de la mesa. La Sacerdotisa no es pasividad: es la inteligencia fría de quien escucha el subtexto antes de enseñar su jugada.",
+        "origen": "Una corazonada temprana fue sepultada bajo toneladas de argumentos racionales.",
+        "presente": "Hay información no dicha en el ambiente y precipitar una conversación te haría perder ventaja.",
+        "desenlace": "La verdad emerge sola y sin esfuerzo si sostienes el silencio unos días más.",
+        "consejo": "Escucha el doble de lo que hablas y no regales tu diagnóstico antes de tiempo.",
+        "preguntaMesa": "¿Qué verdad ya sabes en silencio pero te niegas a pronunciar en voz alta?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Te haces el ciego ante lo evidente por miedo al conflicto.",
+        "ejeCentral": "La frialdad no te protege: solo te desconecta de lo que ya te está doliendo. Sabes perfectamente dónde chirría esta historia, pero prefieres coleccionar distracciones superficiales antes que mirarla de frente.",
+        "origen": "Silencios cómodos y verdades calladas para no incomodar crearon esta distancia.",
+        "presente": "Racionalización excesiva, ironía defensiva y sordera frente a tus propias alertas.",
+        "desenlace": "El secreto que evitas acabará estallando en el peor momento posible.",
+        "consejo": "Deja de fingir sorpresa, escribe en una línea lo que sospechas y compruébalo.",
+        "preguntaMesa": "¿Qué tendrías que cambiar mañana mismo si admitieras que tu sospecha es cierta?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Respeta el velo y espera la señal nítida.",
+        "ejeCentral": "Lo esencial está madurando tras bastidores, lejos de los focos y las prisas. No es hora de forzar definiciones ni de pedir explicaciones públicas; el tiempo trabaja en silencio a favor de quien sabe esperar.",
+        "origen": "Un asunto reservado o una promesa discreta dio forma a esta encrucijada.",
+        "presente": "Atmósfera cargada de presagios sutiles donde conviene guardar reserva absoluta.",
+        "desenlace": "Revelación serena de lo oculto en el instante exacto en que madure.",
+        "consejo": "Protege tu intimidad, no cuentes tus planes y presta atención a los detalles mínimos.",
+        "preguntaMesa": "¿Con quién estás compartiendo planes que deberían madurar en secreto?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Hay sombras en el agua; alguien oculta su verdadera intención.",
+        "ejeCentral": "El misterio se vuelve opacidad turbia. Circulan medias verdades, murmullos o una frialdad calculada que impide confiar en la superficie amable de los hechos.",
+        "origen": "Una omisión interesada sembró la duda que hoy te inquieta.",
+        "presente": "Desconfianza en el aire, datos que no cuadran y respuestas esquivas.",
+        "desenlace": "Descubrimiento incómodo de algo que se mantuvo bajo llave demasiado tiempo.",
+        "consejo": "No entregues tu confianza a ciegas ni entres en juegos de intriga.",
+        "preguntaMesa": "¿Qué detalle pequeño te hizo dudar al principio y decidiste pasar por alto?"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "numeroRomano": "III",
+    "nombre": "La Emperatriz",
+    "arquetipo": "La Fuerza Creativa",
+    "esencia": {
+      "upright": "Abundancia, crecimiento, fertilidad en proyectos o relaciones. Expresión artística.",
+      "reversed": "Bloqueo, dependencia de otros, tiranía emocional o derroche de energía sin rumbo."
+    },
+    "simboloSvg": "empress",
+    "palabrasClave": {
+      "upright": ["cosecha", "creación", "placer"],
+      "reversed": ["apego", "chantaje", "sequía"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Estás en terreno fértil; nutre el proyecto sin culpa ni prisa.",
+        "ejeCentral": "Saliste de la sequía mental y tienes pulso creativo real. El problema no es la falta de capacidad, sino esa manía de creer que solo vale lo que cuesta sufrimiento y desgaste.",
+        "origen": "Un deseo genuino de disfrutar y construir algo vivo empujó esta pregunta.",
+        "presente": "Las ideas prenden con facilidad y tu entorno responde con calidez cuando bajas la guardia.",
+        "desenlace": "Crecimiento tangible y satisfacción profunda si cuidas la constancia diaria.",
+        "consejo": "Invierte tiempo de calidad en tu obra y en tu cuerpo sin pedir perdón por disfrutarlo.",
+        "preguntaMesa": "¿Por qué sigues midiendo tu valor por lo agotado que terminas el día?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Exiges que otros llenen tu vacío mientras descuidas tu raíz.",
+        "ejeCentral": "Cuando la fuerza creativa se bloquea, se vuelve demanda afectiva o control asfixiante. O bien cuidas en exceso para que te necesiten, o esperas sentado a que alguien más rescate tu entusiasmo.",
+        "origen": "Hambre de validación y miedo a la autonomía te ataron a dinámicas dependientes.",
+        "presente": "Bloqueo creativo, caprichos costosos y desgaste por intentar agradar a todos.",
+        "desenlace": "Sequía emocional y resentimiento si no cortas la dependencia.",
+        "consejo": "Retira la factura emocional que pasas a los demás y hazte cargo de tu propio impulso.",
+        "preguntaMesa": "¿Das por generosidad o para asegurarte de que no puedan prescindir de ti?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Tierra fértil y fruto seguro; lo sembrado crece con vigor.",
+        "ejeCentral": "La escena rebosa vitalidad, abundancia material y magnetismo natural. Todo lo que involucre crear, cuidar, asociarse con calidez o dar forma a un hogar y un oficio encuentra respaldo generoso.",
+        "origen": "Una semilla cuidada con paciencia empieza a romper la superficie.",
+        "presente": "Prosperidad en marcha, alianzas afectivas cálidas y creatividad despierta.",
+        "desenlace": "Cosecha abundante y consolidación gozosa de lo que estás gestando.",
+        "consejo": "Rodéate de belleza concreta, agradece lo que ya brota y dale tiempo de maduración.",
+        "preguntaMesa": "¿Qué proyecto hermoso dejaste en el cajón por creer que no era rentable?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Hay derroche y apego; poda lo sobrante antes de sembrar.",
+        "ejeCentral": "La tierra no da fruto porque la ahoga el exceso de riego o la falta de orden. Celos, gastos impulsivos o tensiones domésticas consumen la savia antes de que llegue a la rama.",
+        "origen": "Un descuido prolongado o una posesividad mal disimulada agotó el terreno.",
+        "presente": "Sensación de estancamiento, fatiga sensorial y discusiones por pequeñeces.",
+        "desenlace": "Cosecha pobre hasta que devuelvas sobriedad y límites claros a tu entorno.",
+        "consejo": "Simplifica tus compromisos hoy y deja de intentar comprar calma con excesos.",
+        "preguntaMesa": "¿Qué capricho o apego estás protegiendo aunque sabes que te empobrece?"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "numeroRomano": "IV",
+    "nombre": "El Emperador",
+    "arquetipo": "La Estructura",
+    "esencia": {
+      "upright": "Estabilidad, protección, situación con poder y límites claros. Autoridad sólida.",
+      "reversed": "Rigidez mental extrema, tiranía, control asfixiante o caos total por falta de disciplina."
+    },
+    "simboloSvg": "emperor",
+    "palabrasClave": {
+      "upright": ["límites", "criterio", "mando"],
+      "reversed": ["tiranía", "rigidez", "desorden"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Toma el mando y fija fronteras claras; nadie ordenará esto.",
+        "ejeCentral": "El Emperador exige columna vertebral. No se resuelve con buenas intenciones sino con reglas nítidas, horarios cumplidos y la capacidad serena de decir que no sin sentirte culpable.",
+        "origen": "La urgencia de levantar un suelo firme frente a la ambigüedad te trajo hasta aquí.",
+        "presente": "Tienes la cabeza fría y la autoridad necesaria para cortar el ruido y decidir.",
+        "desenlace": "Estabilidad sólida y respeto ganado a pulso gracias a tu coherencia.",
+        "consejo": "Pon tres límites innegociables esta semana y cúmplelos primero contigo mismo.",
+        "preguntaMesa": "¿Dónde estás cediendo territorio por miedo a parecer antipático?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Tu obsesión por controlar encubre pánico o produce caos.",
+        "ejeCentral": "Oscilas entre el sargento implacable que asfixia y la abdicación total de tu disciplina. Cuando el ego siente que pierde pie, aprieta la mano hasta romper lo que intenta proteger.",
+        "origen": "Viejas batallas con figuras de poder te dejaron atrapado entre someter o someterte.",
+        "presente": "Terquedad estéril, pulsos de ego y una desorganización práctica que niegas.",
+        "desenlace": "Ruptura de acuerdos o desgaste severo si no aflojas el puño.",
+        "consejo": "Revisa tu agenda real antes de exigir orden a nadie y distingue firmeza de dureza.",
+        "preguntaMesa": "¿A qué le tienes tanto miedo que necesitas controlarlo hasta el último milímetro?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: El trono es firme; la disciplina y el orden aseguran el éxito.",
+        "ejeCentral": "Los hechos responden a la estrategia, la jerarquía limpia y la palabra sostenida. Un respaldo sólido, un contrato bien atado o tu propia entereza estabilizan el terreno de forma duradera.",
+        "origen": "Cimientos construidos con paciencia sostienen el edificio actual.",
+        "presente": "Protección material, liderazgo reconocido y claridad frente a la tormenta.",
+        "desenlace": "Posición consolidada y victoria limpia mediante método y templanza.",
+        "consejo": "Mantén la calma del gobernante, cumple tus promesas y defiende lo justo.",
+        "preguntaMesa": "Si hoy tuvieras que liderar esta situación en público, ¿qué norma pondrías primero?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Muro agrietado y mando torcido; la rigidez amenaza derrumbe.",
+        "ejeCentral": "Alguien abusa de su posición o la falta absoluta de estructura impide avanzar. La terquedad choca contra la realidad material y bloquea soluciones que pedían cintura.",
+        "origen": "Una imposición injusta o la ausencia de reglas previas desató el conflicto.",
+        "presente": "Choques de autoridad, trabas burocráticas y desgaste sin progreso.",
+        "desenlace": "Pérdida de influencia si no cedes a tiempo en lo secundario.",
+        "consejo": "No respondas a la fuerza bruta con más terquedad; busca una salida inteligente.",
+        "preguntaMesa": "¿Estás defendiendo un principio justo o solo protegiendo tu orgullo?"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "numeroRomano": "V",
+    "nombre": "El Hierofante",
+    "arquetipo": "El Guía Espiritual",
+    "esencia": {
+      "upright": "Tradición, educación, búsqueda de significado, mentoría y respeto por las normas establecidas.",
+      "reversed": "Dogmatismo, rebelión contra la autoridad, rigidez institucional o consejos hipócritas."
+    },
+    "simboloSvg": "hierophant",
+    "palabrasClave": {
+      "upright": ["ética", "método", "maestría"],
+      "reversed": ["dogma", "hipocresía", "ruptura"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Sigue el método probado y escucha a quien sabe.",
+        "ejeCentral": "No todo se resuelve reinventando la rueda. Tu proceso pide humildad intelectual, estudio riguroso y alineación con una ética que puedas defender sin sonrojarte cuando nadie te mira.",
+        "origen": "Tus valores de fondo te exigen coherencia entre lo que predicas y lo que haces.",
+        "presente": "Buen momento para aprender de un maestro fiable, formalizar acuerdos o enseñar lo aprendido.",
+        "desenlace": "Solidez moral y respeto duradero en tu entorno cercano.",
+        "consejo": "Busca el consejo de alguien con trayectoria real, no de quien solo opina fuerte.",
+        "preguntaMesa": "¿Qué regla básica del oficio estás intentando saltarte por pura impaciencia?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Repites mandatos vacíos o te rebelas sin haber construido criterio.",
+        "ejeCentral": "Vives atrapado en guiones heredados que ya te quedan pequeños, o reaccionas llevando la contraria por sistema sin saber qué defiendes en su lugar. La hipocresía ajena no justifica tu falta de brújula.",
+        "origen": "Normas familiares o institucionales caducas siguen dictando tus culpas.",
+        "presente": "Incomodidad crónica ante discursos falsos y tentación de romperlo todo sin plan.",
+        "desenlace": "Ruptura inevitable con una estructura que ya no te representa.",
+        "consejo": "Separa tus convicciones reales de los prejuicios que adoptaste para encajar.",
+        "preguntaMesa": "¿Qué creencia defiendes en público aunque en privado dejaste de creerla hace años?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: La vía recta y el consejo sabio bendicen el acuerdo.",
+        "ejeCentral": "La tradición actúa como puente seguro. Estudios, trámites formales, mentorías y compromisos honrados reciben luz verde cuando se abordan con respeto y palabra limpia.",
+        "origen": "Una enseñanza recibida o un pacto honorable marcó la pauta actual.",
+        "presente": "Orientación oportuna, acuerdos claros y respaldo de personas íntegras.",
+        "desenlace": "Compromiso firme, aprendizaje fecundo y paz de conciencia.",
+        "consejo": "Honra tu palabra y apoya tus pasos en conocimiento contrastado.",
+        "preguntaMesa": "¿A qué persona sabia de tu vida dejaste de escuchar por creer que ya lo sabías todo?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Falsos maestros y moldes rígidos; sal de esa ortodoxia.",
+        "ejeCentral": "Las formas vacías ahogan el espíritu. Se advierten consejos interesados, burocracia estéril o normas que exigen obediencia ciega a cambio de nada.",
+        "origen": "Una mala orientación o una regla anacrónica desvió el camino.",
+        "presente": "Desencanto con figuras guía y necesidad urgente de aire propio.",
+        "desenlace": "Liberación tras cuestionar una autoridad que perdió legitimidad.",
+        "consejo": "No delegues tu conciencia en intermediarios dudosos; piensa por tu cuenta.",
+        "preguntaMesa": "¿A quién estás obedeciendo por costumbre aunque sepas que no tiene razón?"
+      }
+    }
+  },
+  {
+    "id": "6",
+    "numeroRomano": "VI",
+    "nombre": "Los Enamorados",
+    "arquetipo": "La Elección",
+    "esencia": {
+      "upright": "Alineación de valores, decisiones cruciales del corazón, armonía en relaciones y encrucijadas.",
+      "reversed": "Desalineación, conflicto interno, malas elecciones afectivas o falta de compromiso."
+    },
+    "simboloSvg": "lovers",
+    "palabrasClave": {
+      "upright": ["elección", "lealtad", "alianza"],
+      "reversed": ["tibieza", "triángulo", "duda"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Elige un camino y cierra la puerta trasera sin nostalgia.",
+        "ejeCentral": "Esta carta no habla de corazones rosas: habla del corte adulto que implica elegir. Comprometerte con lo que amas exige renunciar de verdad a las alternativas que mantienes en reserva por cobardía.",
+        "origen": "Una bifurcación vital te obligó a mostrar qué valoras por encima de la comodidad.",
+        "presente": "Cabeza y deseo pueden ir juntos si decides con honestidad y no por miedo a perder.",
+        "desenlace": "Alianza genuina o decisión limpia que multiplica tu fuerza dispersa.",
+        "consejo": "Decide hoy sin dejar planes B ocultos para cuando vengan mal dadas.",
+        "preguntaMesa": "¿Qué opción sigues manteniendo viva solo por miedo a cerrar puertas?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Tu tibieza sabotea el vínculo porque no quieres renunciar a nada.",
+        "ejeCentral": "Vives con un pie en cada orilla y llamas sensibilidad a lo que en realidad es falta de compromiso. La indecisión prolongada pudre tanto los afectos como los proyectos.",
+        "origen": "Una elección hecha por miedo a la soledad o por presión externa creó esta grieta.",
+        "presente": "Mensajes contradictorios, atracción dividida y desgaste por no definir postura.",
+        "desenlace": "Distancia o ruptura inevitable si sigues evitando mojarte.",
+        "consejo": "Di qué quieres y qué no estás dispuesto a sostener, aunque duela la respuesta.",
+        "preguntaMesa": "¿Estás con alguien o en algo por elección real, o por pánico a empezar de cero?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: El corazón y el pacto coinciden; sella la unión con verdad.",
+        "ejeCentral": "Las fuerzas de afinidad trabajan a favor. Tanto en el amor como en una sociedad de confianza, la encrucijada se resuelve con armonía cuando ambos ponen sus cartas boca arriba.",
+        "origen": "Un encuentro decisivo o una prueba de sinceridad abrió este capítulo.",
+        "presente": "Sintonía limpia, diálogo abierto y decisión que marca un antes y un después.",
+        "desenlace": "Unión sólida, acuerdo feliz y claridad tras la duda.",
+        "consejo": "Elige con nobleza y respalda el afecto con hechos visibles.",
+        "preguntaMesa": "Si tuvieras que elegir hoy mismo sin consultar a nadie, ¿hacia dónde iría tu pulso?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Balanza desajustada; una elección tibia traerá conflicto.",
+        "ejeCentral": "Los valores chocan bajo una apariencia amable. Hay dudas no confesadas, terceras influencias o promesas hechas a medias que enfrían la confianza mutua.",
+        "origen": "Una decisión precipitada o una promesa dividida generó la tensión actual.",
+        "presente": "Malentendidos, frialdad creciente y falta de entrega real.",
+        "desenlace": "Replanteamiento profundo o separación si no se habla con franqueza.",
+        "consejo": "No fuerces la unión donde falta respeto ni prometas lo que no piensas cumplir.",
+        "preguntaMesa": "¿Qué verdad estás callando para evitar una discusión necesaria?"
+      }
+    }
+  },
+  {
+    "id": "7",
+    "numeroRomano": "VII",
+    "nombre": "El Carro",
+    "arquetipo": "La Voluntad Dirigida",
+    "esencia": {
+      "upright": "Éxito por esfuerzo, determinación, control sobre fuerzas opuestas y avance firme.",
+      "reversed": "Falta de dirección, pérdida de control, agresividad desmedida o estancamiento por dudas."
+    },
+    "simboloSvg": "chariot",
+    "palabrasClave": {
+      "upright": ["tracción", "empuje", "victoria"],
+      "reversed": ["desvío", "choque", "bloqueo"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Sujeta las riendas de tus contradicciones y acelera con foco.",
+        "ejeCentral": "No esperes a tener paz interior absoluta para moverte: el auriga gobierna caballos que tiran en direcciones opuestas. Usa tu propia ambición y tu miedo como tracción hacia una meta única.",
+        "origen": "Una decisión firme de salir del estancamiento puso en marcha este impulso.",
+        "presente": "Ritmo alto, competencia abierta y capacidad de abrir paso donde otros dudan.",
+        "desenlace": "Avance decisivo y conquista tangible si no pierdes el rumbo a mitad de carrera.",
+        "consejo": "Fija un objetivo medible para los próximos quince días y elimina todo lo accesorio.",
+        "preguntaMesa": "¿Qué distracción disfrazada de urgencia está frenando tu avance principal?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Sueltas el volante o pisas el acelerador por pura rabia.",
+        "ejeCentral": "Confundes velocidad con dirección. Tus impulsos tiran cada uno para su lado y el resultado es mucho ruido de motor sin avanzar un metro, o un choque frontal por pura impaciencia.",
+        "origen": "Prisas mal medidas y ausencia de un destino claro agotaron la tracción.",
+        "presente": "Discusiones estériles, sensación de perder el control y fatiga nerviosa.",
+        "desenlace": "Frenazo brusco o desvío costoso si no bajas las revoluciones.",
+        "consejo": "Detén el carro en el arcén, revisa el mapa y vuelve a definir a dónde vas.",
+        "preguntaMesa": "¿Hacia dónde corres con tanta prisa si ni siquiera sabes qué harás al llegar?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Camino despejado y victoria en marcha; mantén el rumbo firme.",
+        "ejeCentral": "El carro triunfal rompe la inercia. Viajes, mudanzas, ascensos y resoluciones rápidas llegan con fuerza cuando respondes con coraje y no miras atrás a mitad del cruce.",
+        "origen": "Tu determinación frente a un obstáculo previo activó este movimiento.",
+        "presente": "Desplazamientos favorables, empuje decisivo y superación de rivales.",
+        "desenlace": "Triunfo claro y llegada puntual al destino buscado.",
+        "consejo": "Mantén la vista en el horizonte, sujeta las riendas y avanza sin vacilar.",
+        "preguntaMesa": "¿Qué oportunidad pasará de largo si sigues esperando un semáforo más verde?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Eje trabado y mal tiempo; pospón el movimiento brusco.",
+        "ejeCentral": "Los caminos presentan demoras, choques de voluntades o desvíos imprevistos. Empujar a la fuerza cuando las ruedas están atascadas solo rompe la maquinaria.",
+        "origen": "Un conflicto mal cerrado o una ambición desmedida trabó el avance.",
+        "presente": "Retrasos irritantes, impaciencia y roces innecesarios en el entorno.",
+        "desenlace": "Parada obligatoria hasta que se aclare el rumbo.",
+        "consejo": "Aplaza decisiones arriesgadas unos días y repara lo que está suelto.",
+        "preguntaMesa": "¿Qué parte de este choque estás provocando tú por no querer ceder el paso?"
+      }
+    }
+  },
+  {
+    "id": "8",
+    "numeroRomano": "VIII",
+    "nombre": "La Fuerza",
+    "arquetipo": "El Dominio Interior",
+    "esencia": {
+      "upright": "Coraje, paciencia, compasión y control de los impulsos primarios a través de la suavidad.",
+      "reversed": "Debilidad, abuso de poder, tiranía de los instintos o inseguridad paralizante."
+    },
+    "simboloSvg": "strength",
+    "palabrasClave": {
+      "upright": ["temple", "coraje", "serenidad"],
+      "reversed": ["arrebato", "duda", "desgaste"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Sostén el pulso con calma; tu temple vale más que la fuerza.",
+        "ejeCentral": "El verdadero dominio no aplasta el instinto: lo mira a los ojos y lo dirige sin pánico. Puedes atravesar esta prueba difícil sin gritar, sin huir y sin traicionar tu propia dignidad.",
+        "origen": "Una situación exigente puso a prueba tu capacidad de no reaccionar en automático.",
+        "presente": "Firmeza serena, autoridad tranquila y resistencia emocional intacta.",
+        "desenlace": "Respeto genuino y transformación de una tensión en fortaleza propia.",
+        "consejo": "No muerdas el anzuelo de la provocación; responde con hechos firmes y tono bajo.",
+        "preguntaMesa": "¿En qué momento reciente confundiste ceder con ser amable?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: El miedo te paraliza o te hace estallar fuera de lugar.",
+        "ejeCentral": "Cuando falta confianza interna, sobran los extremos: o te encoges para evitar el roce, o ruges de más para tapar tu inseguridad. Estás agotado intentando sostener una imagen fuerte.",
+        "origen": "Batallas acumuladas sin descanso minaron tu centro.",
+        "presente": "Susceptibilidad extrema, dudas sobre tu valía y reacciones viscerales.",
+        "desenlace": "Desgaste moral o derrota evitable si no recuperas el aliento.",
+        "consejo": "Retírate a descansar antes de responder y no tomes decisiones desde el enfado.",
+        "preguntaMesa": "¿Qué pasaría si admitieras hoy mismo que estás cansado de fingir que puedes con todo?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: La constancia serena doma la tormenta y abre paso.",
+        "ejeCentral": "El león se inclina ante quien no le teme ni lo humilla. La paciencia noble, el coraje limpio y la templanza superan resistencias que parecían imposibles de doblar por la fuerza.",
+        "origen": "Un acto de paciencia y lealtad fortaleció tu posición sin hacer ruido.",
+        "presente": "Vitalidad firme, magnetismo tranquilo y protección frente al desgaste.",
+        "desenlace": "Superación airosa de una prueba difícil y recuperación del ánimo.",
+        "consejo": "Confía en tu temple, mantén la elegancia y no bajes los brazos.",
+        "preguntaMesa": "¿Qué conflicto se disolvería mañana si dejaras de echarle leña por orgullo?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Ánimo fatigado e ira suelta; recobra la calma antes de hablar.",
+        "ejeCentral": "La fuerza vital flaquea y abre la puerta al desánimo o al arrebato. No es momento de medir pulsos con nadie mientras tengas las reservas bajo mínimos.",
+        "origen": "Un desgaste prolongado dejó los nervios a flor de piel.",
+        "presente": "Impaciencia, orgullo herido y sensación de vulnerabilidad.",
+        "desenlace": "Tropiezo por reacción impulsiva si no pones pausa.",
+        "consejo": "Cuida tu descanso, calla en caliente y pide apoyo sin vergüenza.",
+        "preguntaMesa": "¿Vale la pena ganar esa discusión si el precio es perder tu paz?"
+      }
+    }
+  },
+  {
+    "id": "9",
+    "numeroRomano": "IX",
+    "nombre": "El Ermitaño",
+    "arquetipo": "La Introspección",
+    "esencia": {
+      "upright": "Búsqueda de la verdad interior, soledad voluntaria, sabiduría del tiempo y prudencia.",
+      "reversed": "Aislamiento destructivo, rechazo a la ayuda, obsesión con el pasado o imprudencia."
+    },
+    "simboloSvg": "hermit",
+    "palabrasClave": {
+      "upright": ["retiro", "criterio", "lucidez"],
+      "reversed": ["encierro", "rumiación", "cinismo"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Aparta el ruido ajeno y decide en soledad.",
+        "ejeCentral": "Estás pidiendo opinión a demasiada gente sobre un asunto que solo tú vas a vivir. El Ermitaño apaga la radio social para que oigas qué piensas realmente cuando nadie te mira.",
+        "origen": "El cansancio de complacer expectativas externas te trajo a este punto.",
+        "presente": "Necesidad sana de distancia, análisis frío y ritmo propio sin prisas.",
+        "desenlace": "Claridad sobria y una decisión que no dependerá de aplausos.",
+        "consejo": "Desconéctate del consejo no pedido durante tres días y escribe tu postura en una página.",
+        "preguntaMesa": "Si nadie fuera a enterarse jamás de tu decisión, ¿seguirías eligiendo lo mismo?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Tu soledad dejó de iluminar; es aislamiento y rumiación.",
+        "ejeCentral": "Convertiste la prudencia en búnker. Darle cien vueltas a lo mismo en tu cabeza sin contrastarlo con nadie no te vuelve más sabio: solo refuerza tus manías y tu amargura.",
+        "origen": "Decepciones antiguas te convencieron de que es más seguro no necesitar a nadie.",
+        "presente": "Encierro resentido, rechazo a manos honestas y obsesión con errores pasados.",
+        "desenlace": "Estancamiento gris si no abres la puerta al contraste real.",
+        "consejo": "Sal de la cueva, habla claro con alguien de criterio y deja de rumiar el ayer.",
+        "preguntaMesa": "¿Te aíslas para pensar mejor o para que nadie pueda llevarte la contraria?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Camina despacio; la lámpara alumbra un paso.",
+        "ejeCentral": "No es tiempo de multitudes ni de anuncios ruidosos. La respuesta madura en la quietud, el estudio paciente y la discreción de quien sabe esperar el momento justo.",
+        "origen": "Una pausa necesaria apartó las distracciones del camino.",
+        "presente": "Prudencia fecunda, guía interior nítida y avance silencioso pero firme.",
+        "desenlace": "Hallazgo de una verdad valiosa y serenidad tras la espera.",
+        "consejo": "Guarda discreción, no aceleres los tiempos y confía en la maduración lenta.",
+        "preguntaMesa": "¿Qué prisa artificial te está impidiendo ver lo que tienes justo delante?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Soledad fría y terquedad; acepta la mano que te tienden.",
+        "ejeCentral": "La lámpara se esconde bajo la capa y el sendero se vuelve áspero. Aferrarte a viejos agravios o rechazar ayuda sincera solo alarga el invierno sin motivo.",
+        "origen": "Un desengaño viejo endureció el trato con los demás.",
+        "presente": "Distancia innecesaria, desconfianza excesiva y pasos torpes por falta de consejo.",
+        "desenlace": "Frialdad creciente si no rompes el cerco.",
+        "consejo": "Abre la ventana, suelta el rencor antiguo y vuelve a conversar.",
+        "preguntaMesa": "¿A quién estás castigando con tu silencio además de a ti mismo?"
+      }
+    }
+  },
+  {
+    "id": "10",
+    "numeroRomano": "X",
+    "nombre": "La Rueda de la Fortuna",
+    "arquetipo": "El Cambio Inevitable",
+    "esencia": {
+      "upright": "Ciclos, giros del destino, golpes de suerte, evolución necesaria del entorno.",
+      "reversed": "Resistencia al cambio, mala racha temporal, repetición de patrones del pasado."
+    },
+    "simboloSvg": "wheel",
+    "palabrasClave": {
+      "upright": ["giro", "ventana", "impulso"],
+      "reversed": ["bucle", "resistencia", "demora"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: El tablero gira ya; adáptate rápido y toma la ventaja.",
+        "ejeCentral": "Hay variables externas moviéndose fuera de tu control. Seguir defendiendo el plan de hace seis meses es inútil; la inteligencia práctica consiste en leer el giro en tiempo real y colocarte bien.",
+        "origen": "Factores acumulados en silencio maduraron hasta cambiar las reglas del juego.",
+        "presente": "Escenario veloz con oportunidades breves que premian la agilidad mental.",
+        "desenlace": "Cambio de fase favorable si sueltas el apego a cómo debían ser las cosas.",
+        "consejo": "Detecta qué puerta acaba de abrirse hoy y cruza antes de que vuelva a girar.",
+        "preguntaMesa": "¿Qué costumbre vieja tendrías que soltar hoy para aprovechar el cambio que ya empezó?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Estás atrapado en el mismo bucle; cambia tu respuesta ya.",
+        "ejeCentral": "Llamas mala suerte a repetir la misma jugada con distinto decorado. Mientras no identifiques el reflejo automático que te mete en este problema, la rueda volverá a pasarte por encima.",
+        "origen": "Miedo a soltar lo conocido aunque lleve tiempo haciéndote daño.",
+        "presente": "Frustración circular, tropiezos repetidos y sensación de remar en barro.",
+        "desenlace": "El patrón se repetirá intacto hasta que hagas algo radicalmente distinto.",
+        "consejo": "Anota qué haces siempre justo antes de que esto salga mal y rómpelo hoy.",
+        "preguntaMesa": "¿Cuántas veces más necesitas vivir esta misma escena para cambiar de guion?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: La Rueda gira a tu favor; aprovecha el golpe de suerte.",
+        "ejeCentral": "El azar se vuelve aliado y mueve piezas que llevaban meses atascadas. Llegan coincidencias oportunas, cambios de escenario y una corriente fresca que saca el asunto del punto muerto.",
+        "origen": "Un ciclo largo alcanzó su punto exacto de inflexión.",
+        "presente": "Sincronías evidentes, noticias imprevistas y viento favorable.",
+        "desenlace": "Mejora rápida y apertura de una etapa más próspera.",
+        "consejo": "Permanece atento y responde con decisión cuando pase el tren.",
+        "preguntaMesa": "¿Qué coincidencia reciente descartaste demasiado rápido como pura casualidad?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Racha adversa pasajera; conserva fuerzas y no fuerces el giro.",
+        "ejeCentral": "El clima no acompaña para apuestas temerarias. Se cruzan demoras y retornos de asuntos mal cerrados que piden cabeza fría hasta que pase la curva baja.",
+        "origen": "Un cabo suelto del pasado regresó a pedir cuentas.",
+        "presente": "Imprevistos menores y sensación de remar contra corriente.",
+        "desenlace": "Calma progresiva en cuanto dejes de pelear con el calendario.",
+        "consejo": "Protege tus recursos, evita riesgos grandes y espera mejor marea.",
+        "preguntaMesa": "¿Qué estás intentando forzar hoy que saldría solo dentro de un mes?"
+      }
+    }
+  },
+  {
+    "id": "11",
+    "numeroRomano": "XI",
+    "nombre": "La Justicia",
+    "arquetipo": "La Causa y Efecto",
+    "esencia": {
+      "upright": "Verdad, equidad, consecuencias legales o morales equilibradas. Honestidad radical.",
+      "reversed": "Injusticia, sesgo, falta de rendición de cuentas, desequilibrio o juicios severos."
+    },
+    "simboloSvg": "justice",
+    "palabrasClave": {
+      "upright": ["hechos", "equidad", "corte"],
+      "reversed": ["sesgo", "excusa", "desajuste"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Mira los hechos sin adornos y asume tu parte.",
+        "ejeCentral": "La Justicia corta por lo sano el victimismo y las coartadas. Aquí no hay misterio: estás recogiendo la consecuencia exacta de tus decisiones previas, y la salida exige frialdad honesta.",
+        "origen": "Tus actos y tus omisiones construyeron milimétricamente el escenario de hoy.",
+        "presente": "Hora de poner los números claros, equilibrar lo que das y cortar lo que sobra.",
+        "desenlace": "Acuerdo limpio y paz mental nacida de no haberte mentido.",
+        "consejo": "Haz una lista de hechos verificables sin adjetivos y decide en base a ella.",
+        "preguntaMesa": "Si un juez imparcial viera solo tus actos y no tus intenciones, ¿qué veredicto daría?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Trucas la balanza culpando fuera o castigándote sin medida.",
+        "ejeCentral": "Tu juicio está contaminado por el rencor o la culpa. O bien buscas un culpable externo para no admitir tu error, o te aplicas una sentencia cruel que te impide reparar nada.",
+        "origen": "Una verdad maquillada o un trato desigual torció la percepción del conflicto.",
+        "presente": "Resentimiento, argumentos tramposos y negativa a ver la foto completa.",
+        "desenlace": "Conflicto enquistado hasta que devuelvas objetividad al asunto.",
+        "consejo": "Admite tu cuota exacta de error sin dramatismo y corrige el desequilibrio.",
+        "preguntaMesa": "¿Qué parte de esta injusticia sigues alimentando tú por no poner un límite?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: La balanza se nivela; la verdad prevalece y cobra lo justo.",
+        "ejeCentral": "Papeles, firmas, pleitos y acuerdos morales se inclinan hacia la rectitud. Quien actuó con limpieza recibe respaldo claro; lo torcido queda al descubierto sin necesidad de venganza.",
+        "origen": "Una postura íntegra o una deuda legítima puso en marcha este equilibrio.",
+        "presente": "Claridad en contratos, resoluciones justas y exigencia de transparencia.",
+        "desenlace": "Fallo favorable, cierre ordenado y restablecimiento de la paz.",
+        "consejo": "Di la verdad entera, revisa cada cláusula y actúa con rectitud.",
+        "preguntaMesa": "¿Qué verdad incómoda aclararía todo esto en cinco minutos si te atrevieras a decirla?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Balanza inclinada y letra pequeña; revisa antes de firmar.",
+        "ejeCentral": "Rondan la parcialidad, los acuerdos desiguales o los juicios apresurados. No des nada por sentado ni confíes en promesas verbales donde hace falta respaldo escrito.",
+        "origen": "Una omisión o un trato descompensado dejó la herida abierta.",
+        "presente": "Sensación de trato injusto, demoras y argumentos sesgados.",
+        "desenlace": "Desgaste seguro si aceptas condiciones desequilibradas por prisa.",
+        "consejo": "Documenta todo, pide transparencia y no cedas ante presiones injustas.",
+        "preguntaMesa": "¿Por qué estás aceptando un trato que sabes de sobra que es desigual?"
+      }
+    }
+  },
+  {
+    "id": "12",
+    "numeroRomano": "XII",
+    "nombre": "El Colgado",
+    "arquetipo": "La Rendición",
+    "esencia": {
+      "upright": "Nueva perspectiva, pausa voluntaria, sacrificio constructivo, ver las cosas al revés.",
+      "reversed": "Martirio inútil, estancamiento por miedo, resistencia a soltar el control o apatía."
+    },
+    "simboloSvg": "hanged",
+    "palabrasClave": {
+      "upright": ["pausa", "giro", "ángulo"],
+      "reversed": ["martirio", "apego", "parálisis"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Deja de empujar y cambia el ángulo.",
+        "ejeCentral": "Tu estrategia frontal chocó contra un muro, y seguir haciendo fuerza solo te agota. El Colgado te obliga a soltar el control un momento para descubrir que la salida estaba justo al revés.",
+        "origen": "Un callejón sin salida te obligó a detener la inercia automática.",
+        "presente": "Pausa incómoda pero fértil donde no moverte es más inteligente que improvisar.",
+        "desenlace": "Un cambio radical de enfoque que resuelve el nudo sin desgaste.",
+        "consejo": "Invierte la pregunta que te haces y observa qué cambia si renuncias a tener razón.",
+        "preguntaMesa": "¿Qué pasaría si dejaras de luchar por esto exactamente durante una semana?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Te cuelgas de un martirio inútil que nadie te pidió.",
+        "ejeCentral": "Confundes aguantar con virtud moral. Sigues atado a una situación muerta por miedo al vacío, coleccionando quejas mientras finges que no tienes opción para bajarte.",
+        "origen": "Miedo a quedar mal o a perder seguridad te dejó colgado demasiado tiempo.",
+        "presente": "Apatía, victimismo elegante y sensación falsa de estar atrapado.",
+        "desenlace": "Desgaste crónico hasta que cortes tú mismo la cuerda.",
+        "consejo": "Bájate del pedestal del mártir hoy mismo y asume el coste de elegir.",
+        "preguntaMesa": "¿Qué ventaja oculta sacas de seguir quejándote en lugar de irte?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Acepta la demora; en la pausa está la clave.",
+        "ejeCentral": "El reloj se detiene por fuera para reordenar el tablero por dentro. Lo que hoy parece retraso frustrante te libra de un error mayor y prepara una inversión completa de la suerte.",
+        "origen": "Una renuncia necesaria frenó un avance mal planteado.",
+        "presente": "Compás de espera claro que exige templanza y mirada limpia.",
+        "desenlace": "Desbloqueo inesperado una vez aceptes el ritmo real de los hechos.",
+        "consejo": "No fuerces cerraduras; observa qué te está enseñando esta espera.",
+        "preguntaMesa": "¿De qué problema mayor te ha librado ya este retraso que tanto te molesta?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Sacrificio estéril y tiempo perdido; suelta las amarras ya.",
+        "ejeCentral": "La espera perdió todo sentido y se volvió estancamiento puro. Sostienes cargas ajenas o promesas vacías que solo consumen tu impulso vital.",
+        "origen": "Una falsa lealtad te mantuvo inmóvil más allá de lo razonable.",
+        "presente": "Frustración seca, pérdida de tiempo y cero retorno.",
+        "desenlace": "Bloqueo prolongado hasta que te sueltes de lo caduco.",
+        "consejo": "Corta los lazos que drenan tu ánimo y recupera el movimiento.",
+        "preguntaMesa": "¿A quién estás intentando salvar mientras te hundes con él?"
+      }
+    }
+  },
+  {
+    "id": "13",
+    "numeroRomano": "XIII",
+    "nombre": "La Muerte",
+    "arquetipo": "La Transformación",
+    "esencia": {
+      "upright": "Cierre inevitable de un ciclo, renovación profunda, final necesario para que nazca lo nuevo.",
+      "reversed": "Resistencia dolorosa a dejar ir, estancamiento en un pasado que ya no tiene vida."
+    },
+    "simboloSvg": "death",
+    "palabrasClave": {
+      "upright": ["corte", "duelo", "renacer"],
+      "reversed": ["negación", "apego", "inercia"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Cierra esta etapa sin prórrogas y deja nacer lo nuevo.",
+        "ejeCentral": "La Muerte no pide permiso: señala lo que ya terminó aunque tú sigas pagando la renta. Seguir reanimando una identidad, hábito o vínculo sin pulso solo te roba oxígeno para lo que viene.",
+        "origen": "El agotamiento completo de la fórmula anterior demostró que no daba más de sí.",
+        "presente": "Corte limpio, sobrio e irreversible que despeja el terreno.",
+        "desenlace": "Renovación auténtica y espacio vital libre para empezar sin lastre.",
+        "consejo": "Despide lo que se acaba con respeto, pero sin negociar una última oportunidad.",
+        "preguntaMesa": "¿Qué estás intentando resucitar cuando sabes perfectamente que ya murió?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Tu pánico a soltar prolonga una agonía innecesaria.",
+        "ejeCentral": "Te agarras a escombros emocionales por terror al silencio que queda después. Esa resistencia convierte un final limpio en una putrefacción lenta que contamina todo lo demás.",
+        "origen": "Un duelo aplazado mantiene tu cabeza anclada en el ayer.",
+        "presente": "Pesadez, nostalgia engañosa y miedo paralizante al cambio.",
+        "desenlace": "El cierre ocurrirá igual, pero con el doble de desgaste si sigues resistiendo.",
+        "consejo": "Pronuncia el final en voz alta y da hoy el primer paso físico de salida.",
+        "preguntaMesa": "¿A qué le tienes más miedo: a perder esto o a descubrir quién eres sin ello?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: La siega limpia el campo; tras el cierre llega la aurora.",
+        "ejeCentral": "Pasa la guadaña liberadora para barrer lo que estorba tu camino. No anuncia desgracia sino mudanza radical: lo viejo se disuelve para que entre aire limpio en tu casa.",
+        "origen": "El fin natural de una etapa preparó este corte definitivo.",
+        "presente": "Desprendimiento profundo, cierre de puertas y purificación del rumbo.",
+        "desenlace": "Renacer completo y entrada en un paisaje irreconocible para bien.",
+        "consejo": "Inclínate ante el cambio, agradece lo vivido y prepara tierra nueva.",
+        "preguntaMesa": "¿Qué puerta necesitas cerrar con llave hoy para que pueda abrirse la siguiente?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Te aferras a cenizas frías y retrasas tu propio renacer.",
+        "ejeCentral": "La transformación llama a la puerta pero encuentra el cerrojo echado por dentro. Mantener en pie lo que ya cumplió su tiempo genera sombra y pesadez en todo el entorno.",
+        "origen": "Una pérdida no aceptada bloqueó el curso natural de los hechos.",
+        "presente": "Inercia densa, apego al pasado y miedo a cruzar el umbral.",
+        "desenlace": "Demora dolorosa hasta que sueltes lo que ya partió.",
+        "consejo": "Limpia tu espacio, devuelve lo prestado y deja descansar el pasado.",
+        "preguntaMesa": "¿Cuántos recuerdos estás usando de excusa para no vivir el presente?"
+      }
+    }
+  },
+  {
+    "id": "14",
+    "numeroRomano": "XIV",
+    "nombre": "La Templanza",
+    "arquetipo": "La Alquimia Interna",
+    "esencia": {
+      "upright": "Equilibrio, moderación, paciencia, mezcla armónica de opuestos y sanación emocional.",
+      "reversed": "Desequilibrio, excesos, falta de paciencia, intereses en conflicto o desconexión."
+    },
+    "simboloSvg": "temperance",
+    "palabrasClave": {
+      "upright": ["mesura", "síntesis", "pulso"],
+      "reversed": ["exceso", "impaciencia", "fricción"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Dosifica el ritmo e integra extremos; la solución madura bien.",
+        "ejeCentral": "Tras la sacudida, tu psique busca punto medio operativo. No hace falta elegir entre todo o nada: la verdadera maestría aquí consiste en mezclar acción y pausa sin quemar tus reservas.",
+        "origen": "Un aprendizaje de autorregulación empezó a templar antiguas urgencias.",
+        "presente": "Calma lúcida, diálogo posible y recuperación sostenida de fuerzas.",
+        "desenlace": "Estabilidad duradera y acuerdos que se sostienen sin drama.",
+        "consejo": "Rebaja las respuestas absolutas y apuesta por el avance constante de cada día.",
+        "preguntaMesa": "¿Por qué crees que si no duele o no es extremo no es verdadero?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Tus extremos y tu prisa rompen el equilibrio que necesitas.",
+        "ejeCentral": "Vives en péndulo: de la euforia al agotamiento, de la entrega total al portazo. La falta de mesura sabotea acuerdos viables y te deja seco antes de llegar a la meta.",
+        "origen": "Excesos emocionales o ritmos insostenibles crearon esta fricción.",
+        "presente": "Irritabilidad, prisa absurda y choques de intereses sin punto medio.",
+        "desenlace": "Desgaste o ruptura evitable si no moderas el tono ahora.",
+        "consejo": "Frena hoy dos marchas y detecta en qué hábito estás perdiendo la medida.",
+        "preguntaMesa": "¿Qué problema menor estás convirtiendo en incendio por pura impaciencia?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Agua justa y pulso sereno; la sanación y el acuerdo llegan.",
+        "ejeCentral": "Una corriente templada reconcilia partes que parecían irreconciliables. El tiempo juega a favor, trayendo alivio, salud serena y entendimiento limpio entre personas distintas.",
+        "origen": "Un gesto de paciencia o perdón inició esta alquimia serena.",
+        "presente": "Flujo armónico, calma de ánimo y convergencia de voluntades.",
+        "desenlace": "Sanación real, reconciliación y paz estable.",
+        "consejo": "Mezcla firmeza con dulzura y deja que la decantación haga su trabajo.",
+        "preguntaMesa": "¿Con quién podrías hacer las paces hoy si bajaras un grado tu orgullo?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Agua derramada por prisa y exceso; restaura el orden primero.",
+        "ejeCentral": "Los elementos chocan sin integrarse. La ansiedad por resultados inmediatos desordena los hábitos y rompe el hilo fino de la conversación.",
+        "origen": "Una reacción desmedida quebró la armonía previa.",
+        "presente": "Inquietud, desacuerdos evitables y energía dispersa.",
+        "desenlace": "Tensión prolongada hasta que vuelvas a la sobriedad.",
+        "consejo": "No decidas nada en caliente, cuida el descanso y busca el centro.",
+        "preguntaMesa": "¿Qué exceso diario te está robando la claridad que pides afuera?"
+      }
+    }
+  },
+  {
+    "id": "15",
+    "numeroRomano": "XV",
+    "nombre": "El Diablo",
+    "arquetipo": "La Sombra",
+    "esencia": {
+      "upright": "Obsesiones, ataduras materiales, magnetismo sexual intenso, confrontación con dependencias.",
+      "reversed": "Liberación dolorosa de vicios y cadenas, o sumisión total a ilusiones destructivas."
+    },
+    "simboloSvg": "devil",
+    "palabrasClave": {
+      "upright": ["atadura", "deseo", "sombra"],
+      "reversed": ["ruptura", "despertar", "abstinencia"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "NO: Esa cadena sigue cerrada porque obtienes algo de llevarla puesta.",
+        "ejeCentral": "El Diablo no te secuestró: firmaste un contrato cómodo con tu propia sombra. Ya sea por deseo, dinero, orgullo o miedo a estar solo, hay un beneficio oculto que te mantiene enganchado.",
+        "origen": "Una necesidad no confesada de poder, placer o refugio selló este nudo.",
+        "presente": "Obsesión circular, juego de manipulación o dependencia que drena tu autonomía.",
+        "desenlace": "Choque frontal con tu sombra hasta que asumas que la llave es tuya.",
+        "consejo": "Nombra con cinismo cero qué ganas tú de seguir atrapado en esta dinámica.",
+        "preguntaMesa": "¿Qué comodidad inconfesable perderías si cortaras esa cadena hoy mismo?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Sueltas la cadena si aguantas el síndrome de abstinencia.",
+        "ejeCentral": "El truco quedó al descubierto y la ilusión ya no te engaña, pero el cuerpo y la costumbre tiran hacia atrás. Estás a medio paso de salir libre si no confundes nostalgia con deseo.",
+        "origen": "Tocar fondo en una dinámica tóxica despertó por fin la lucidez.",
+        "presente": "Incomodidad sana de quien rompe un vicio y lucha por no recaer.",
+        "desenlace": "Recuperación real de tu soberanía si sostienes el corte sin negociar.",
+        "consejo": "Corta el suministro de esa tentación y no romantices las rejas que ya viste.",
+        "preguntaMesa": "¿Cuál es la excusa más tentadora que podrías inventarte esta semana para recaer?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "NO: Fuego intenso y lazo fuerte; no entregues tu paz al apego.",
+        "ejeCentral": "Arde una atracción magnética o una ambición material que promete mucho y cobra caro. Si bajas la guardia, el deseo toma el timón y convierte un gusto en servidumbre.",
+        "origen": "Un pacto de ambición o una pasión sin freno encendió este nudo.",
+        "presente": "Tentación fuerte, celos o lazos difíciles de desatar sin raspaduras.",
+        "desenlace": "Prueba dura de voluntad frente a las ataduras del mundo.",
+        "consejo": "Observa dónde entregaste tu libertad y recupera el mando antes de pagar de más.",
+        "preguntaMesa": "¿El precio de conseguir eso incluye seguir siendo dueño de ti mismo?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ: Se rompe el hechizo y caen las cadenas; sal por la grieta.",
+        "ejeCentral": "La oscuridad pierde fuerza y un vínculo denso se afloja. Aunque el corte levante polvo, entra aire fresco en una zona que llevaba demasiado tiempo sometida.",
+        "origen": "Un despertar brusco mostró el coste real de seguir atado.",
+        "presente": "Desprendimiento activo, corte con influencias turbias y alivio gradual.",
+        "desenlace": "Liberación firme si mantienes limpio el propósito.",
+        "consejo": "Cierra la puerta a lo que te drena y limpia tus hábitos desde hoy.",
+        "preguntaMesa": "¿Qué persona o hábito desaparecería de tu vida si dejaras de contestar por inercia?"
+      }
+    }
+  },
+  {
+    "id": "16",
+    "numeroRomano": "XVI",
+    "nombre": "La Torre",
+    "arquetipo": "Ruptura del Ego",
+    "esencia": {
+      "upright": "Colapso abrupto de planes o ilusiones falsas. Un golpe inesperado que limpia el terreno.",
+      "reversed": "Evitar un colapso inminente temporalmente, vivir atrapado en una estructura agrietada."
+    },
+    "simboloSvg": "tower",
+    "palabrasClave": {
+      "upright": ["derrumbe", "verdad", "despeje"],
+      "reversed": ["grieta", "aplazamiento", "alarma"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "NO: Cae lo falso; suelta los escombros y quédate con la verdad.",
+        "ejeCentral": "La Torre no destruye nada que estuviera sano: solo pulveriza la fachada que defendías con tanto esfuerzo. Duele porque el ego pierde su relato cómodo, pero por fin respiras aire real.",
+        "origen": "Sostener una mentira piadosa acumuló la presión que hoy estalla.",
+        "presente": "Crisis seca que arranca máscaras y deja los hechos desnudos sobre la mesa.",
+        "desenlace": "Liberación brutal pero limpia para construir sobre suelo verdadero.",
+        "consejo": "No intentes pegar los pedazos de lo que cayó; acepta la verdad y empieza limpio.",
+        "preguntaMesa": "¿Qué mentira amable te estabas contando para no ver las grietas del edificio?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Sostienes muros agrietados por pánico a una crisis inevitable.",
+        "ejeCentral": "Vives de puntillas dentro de una casa que cruje, rezando para que nadie dé un portazo. Aplazar el derrumbe solo multiplica el coste emocional de habitar algo que ya no te protege.",
+        "origen": "Miedo al conflicto abierto o a perder estatus te mantuvo en negación.",
+        "presente": "Tensión constante bajo una calma artificial que no engaña a nadie.",
+        "desenlace": "Desgaste severo hasta que la realidad derribe la puerta por su cuenta.",
+        "consejo": "Provoca tú la conversación difícil de forma controlada antes de que caiga sola.",
+        "preguntaMesa": "¿Cuánto tiempo más piensas pagar el alquiler de una fachada que ya se cayó por dentro?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "NO: El rayo limpia el cielo; tras la sacudida queda lo auténtico.",
+        "ejeCentral": "Un suceso súbito desarma planes mal cimentados o falsas seguridades. El estruendo asusta, pero el rayo actúa como cirugía urgente frente a una prisión de la que no sabías salir.",
+        "origen": "Una soberbia oculta o una base falsa atrajo la descarga limpiadora.",
+        "presente": "Cambio abrupto, revelación impactante y caída de falsas promesas.",
+        "desenlace": "Horizonte despejado para levantar algo íntegro desde cero.",
+        "consejo": "Pon a salvo lo esencial, suelta los escombros y agradece ver al fin claro.",
+        "preguntaMesa": "Si todo esto se cayera mañana por la mañana, ¿qué sería lo único que rescatarías?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Temblor contenido; el aviso sonó, pero sigues dentro del edificio.",
+        "ejeCentral": "El golpe se retrasa por poco, pero las señales de evacuación parpadean en rojo. Ignorar una advertencia tan nítida solo asegura que el próximo aviso sea definitivo.",
+        "origen": "Una crisis menor previa dejó avisos que preferiste barrer bajo la alfombra.",
+        "presente": "Inestabilidad latente, sustos seguidos y fragilidad evidente.",
+        "desenlace": "Derrumbe aplazado si no actúas con cirugía ahora.",
+        "consejo": "Escucha la alarma temprana y haz los cambios profundos antes del próximo rayo.",
+        "preguntaMesa": "¿Cuántos sustos pequeños necesitas todavía para tomar una decisión grande?"
+      }
+    }
+  },
+  {
+    "id": "17",
+    "numeroRomano": "XVII",
+    "nombre": "La Estrella",
+    "arquetipo": "La Esperanza Divina",
+    "esencia": {
+      "upright": "Fe en el futuro, renovación espiritual, serenidad, inspiración y sanación profunda.",
+      "reversed": "Falta de fe, desilusión, pesimismo, bloqueos creativos o falsas expectativas."
+    },
+    "simboloSvg": "star",
+    "palabrasClave": {
+      "upright": ["norte", "alivio", "autenticidad"],
+      "reversed": ["cinismo", "desencanto", "sequía"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Recuperas el norte tras la tormenta; avanza sin armaduras.",
+        "ejeCentral": "La Estrella llega cuando ya no tienes nada que demostrar ni esconder. Superaste la sacudida y por primera vez en mucho tiempo el deseo coincide con una calma lúcida y habitable.",
+        "origen": "Sobrevivir a un derrumbe previo limpió tu brújula de ambiciones prestadas.",
+        "presente": "Claridad tranquila, inspiración honesta y vulnerabilidad sin miedo.",
+        "desenlace": "Sanación real y rumbo sostenido hacia algo que sí te representa.",
+        "consejo": "Sigue la dirección que te devuelve aire limpio, sin apresurar el resultado.",
+        "preguntaMesa": "¿Qué te atreverías a construir ahora que ya viste que sobreviviste a lo peor?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: El cinismo apaga tu brújula antes de darle tiempo al proceso.",
+        "ejeCentral": "Esperabas un rescate milagroso y, como no llegó en cuarenta y ocho horas, te refugiaste en el desencanto. El pesimismo elegante es la forma más cómoda de no volver a intentarlo.",
+        "origen": "Expectativas irreales chocaron contra la lentitud normal de la vida.",
+        "presente": "Desánimo gris, bloqueo creativo y lupa puesta solo en lo que falta.",
+        "desenlace": "Apatía prolongada si no bajas las metas a pasos diarios verificables.",
+        "consejo": "Cambia la fantasía por un logro pequeño hoy mismo que te devuelva tracción.",
+        "preguntaMesa": "¿Te desanimaste por falta de resultados o por haber esperado un milagro sin trabajo?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Luz serena en la noche; el horizonte sana y guía tus pasos.",
+        "ejeCentral": "El cielo se despeja tras la lluvia y deja ver una estrella fija. Llegan alivio profundo, ayudas desinteresadas e inspiración limpia para proyectos que nacen desde la verdad.",
+        "origen": "Un acto de fe sincera o una limpieza profunda atrajo esta calma.",
+        "presente": "Paz en el ánimo, buena estrella creativa y recuperación de fuerzas.",
+        "desenlace": "Cumplimiento paulatino de un anhelo noble y bienestar estable.",
+        "consejo": "Mantén la gratitud abierta, comparte sin miedo y confía en el trayecto.",
+        "preguntaMesa": "¿Qué sueño noble dejaste en pausa creyendo que ya había pasado tu hora?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Nubes de desaliento tapan tu guía; descansa y limpia expectativas.",
+        "ejeCentral": "La fuente sigue viva, pero la fatiga espiritual impide reconocerla. Hay desengaño por promesas vacías o tristeza acumulada que nubla el juicio.",
+        "origen": "Una decepción reciente dejó el ánimo bajo mínimos.",
+        "presente": "Pesimismo pasajero, falta de chispa y sensación de lejanía.",
+        "desenlace": "Recuperación lenta en cuanto sueltes ilusiones falsas.",
+        "consejo": "Cuida tu cuerpo, busca belleza sencilla y no decidas desde el cansancio.",
+        "preguntaMesa": "¿Qué expectativa imposible tendrías que perdonarte hoy para volver a respirar?"
+      }
+    }
+  },
+  {
+    "id": "18",
+    "numeroRomano": "XVIII",
+    "nombre": "La Luna",
+    "arquetipo": "El Subconsciente",
+    "esencia": {
+      "upright": "Ilusiones, miedos ocultos, sueños vívidos, intuición y verdades escondidas en la sombra.",
+      "reversed": "Liberación del miedo, confusión que se aclara, secretos revelados o autoengaño expuesto."
+    },
+    "simboloSvg": "moon",
+    "palabrasClave": {
+      "upright": ["niebla", "proyección", "sospecha"],
+      "reversed": ["despeje", "revelación", "alivio"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "NO: Decides dentro de la niebla; tus miedos deforman lo que ves.",
+        "ejeCentral": "La Luna convierte cada sombra en monstruo o en espejismo. Estás leyendo intenciones donde solo hay datos incompletos y proyectando heridas viejas sobre una escena ambigua.",
+        "origen": "Temores antiguos no resueltos colorean cada silencio de esta historia.",
+        "presente": "Ansiedad difusa, mensajes ambiguos y tentación de sacar conclusiones extremas.",
+        "desenlace": "Confusión costosa si actúas antes de verificar los hechos a plena luz.",
+        "consejo": "No tomes ninguna decisión definitiva hoy; pregunta directo y comprueba datos.",
+        "preguntaMesa": "¿Cuántos detalles de esta historia viste de verdad y cuántos rellenó tu miedo?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ: La niebla se levanta y el autoengaño queda al descubierto.",
+        "ejeCentral": "Lo que te asustaba en la penumbra por fin tiene contorno nítido. Se disuelven fantasías ansiosas o mentiras bien empaquetadas, devolviéndote suelo firme para decidir.",
+        "origen": "Cansarte de vivir en la sospecha te obligó a encender la luz.",
+        "presente": "Clarificación rápida de malentendidos y fin de la confusión paralizante.",
+        "desenlace": "Alivio seco y realista al comprobar que puedes manejar la verdad.",
+        "consejo": "Acepta lo que acaba de quedar a la vista aunque desmonte un cuento cómodo.",
+        "preguntaMesa": "Ahora que se disipó la niebla, ¿era tan grave como imaginabas o simplemente distinto?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "NO: Sendero en penumbra y espejismos; espera la luz del alba.",
+        "ejeCentral": "Bajo la luna llena nada es exactamente lo que parece. Hay aguas profundas moviéndose bajo el silencio, medias verdades en el entorno y presagios que piden cautela extrema.",
+        "origen": "Un misterio no resuelto o una influencia sutil envuelve la consulta.",
+        "presente": "Sueños intensos, corazonadas inquietas y poca transparencia alrededor.",
+        "desenlace": "Verdad que tardará en mostrarse del todo hasta cruzar la noche.",
+        "consejo": "Camina despacio, no confíes en apariencias nocturnas y espera al amanecer.",
+        "preguntaMesa": "¿Qué parte de este paisaje te seduce precisamente porque no la ves entera?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ: Los secretos salen a la luz y la confusión retrocede.",
+        "ejeCentral": "Las sombras pierden su disfraz. Un engaño queda expuesto o una duda infundada se deshace, permitiéndote retomar el camino con confianza renovada.",
+        "origen": "Una pista imprevista rasgó el velo de la confusión.",
+        "presente": "Aclaración de enredos y retorno progresivo de la calma.",
+        "desenlace": "Verdad manifiesta y suelo seguro bajo tus pies.",
+        "consejo": "Agradece la claridad ganada y no vuelvas a entrar en aguas turbias.",
+        "preguntaMesa": "¿Qué excusa vas a dejar caer ahora que ya no puedes fingir que no ves?"
+      }
+    }
+  },
+  {
+    "id": "19",
+    "numeroRomano": "XIX",
+    "nombre": "El Sol",
+    "arquetipo": "La Claridad Total",
+    "esencia": {
+      "upright": "Éxito rotundo, vitalidad, alegría pura, verdad revelada a la luz y conexión auténtica.",
+      "reversed": "Felicidad nublada temporalmente, orgullo excesivo, necesidad de validación o retrasos mínimos."
+    },
+    "simboloSvg": "sun",
+    "palabrasClave": {
+      "upright": ["claridad", "triunfo", "verdad"],
+      "reversed": ["vanidad", "nube", "demora"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Todo queda a plena luz; avanza con franqueza y disfruta.",
+        "ejeCentral": "No hay trampas ocultas ni letra pequeña en tu propia cabeza. Cuando alineas lo que piensas, lo que sientes y lo que haces sin vergüenza, la realidad responde con nitidez proporcional.",
+        "origen": "Atravesar la duda con honestidad te trajo a este espacio despejado.",
+        "presente": "Vitalidad alta, acuerdos transparentes y alegría que no necesita disfraz.",
+        "desenlace": "Éxito visible y satisfacción genuina sin resaca emocional.",
+        "consejo": "Di tu verdad de frente, muestra tu obra y date permiso para celebrar sin culpa.",
+        "preguntaMesa": "¿Por qué a veces te cuesta más aceptar que algo salió bien que gestionar un problema?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Baja el ego y deja de mendigar aplausos.",
+        "ejeCentral": "El asunto es bueno en la raíz, pero tu ansiedad por brillar o por recibir validación externa está nublando el disfrute. No conviertas una demora menor en herida de orgullo.",
+        "origen": "Exigencias desmedidas de reconocimiento empañaron un avance real.",
+        "presente": "Susceptibilidad tonta o cansancio por querer demostrar demasiado.",
+        "desenlace": "Claridad recuperada en cuanto sueltes la necesidad de impresionar.",
+        "consejo": "Haz el trabajo por su valor real y no por los aplausos de la grada.",
+        "preguntaMesa": "¿Seguirías queriendo esto mismo si nadie pudiera felicitarte por ello?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Sol pleno en lo alto; éxito rotundo, salud y verdad.",
+        "ejeCentral": "Es el augurio más limpio del mazo. La luz disipa toda sospecha, bendice las uniones sinceras, corona esfuerzos largos y trae alegría compartida sin sombras escondidas.",
+        "origen": "La verdad y la constancia abrieron paso a este mediodía claro.",
+        "presente": "Plenitud, celebraciones merecidas y acuerdos generosos.",
+        "desenlace": "Victoria indudable y dicha duradera a plena luz.",
+        "consejo": "Comparte tu mesa con generosidad y disfruta del calor ganado.",
+        "preguntaMesa": "¿Con quién quieres celebrar de verdad cuando esto llegue a puerto?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Pasa una nube breve; modera la confianza excesiva.",
+        "ejeCentral": "No hay oscuridad de fondo, solo un retraso leve o un exceso de orgullo que enfría el ambiente. Cuida los detalles prácticos y evita dar por cerrada la partida antes de tiempo.",
+        "origen": "Un malentendido menor o un punto de vanidad empañó el entusiasmo.",
+        "presente": "Demora pequeña y necesidad de revisar lo cotidiano con humildad.",
+        "desenlace": "Buen cierre una vez se disipe la nube pasajera.",
+        "consejo": "Mantén los pies en el suelo y remata bien los últimos detalles.",
+        "preguntaMesa": "¿Qué detalle básico estás dando por hecho por puro exceso de confianza?"
+      }
+    }
+  },
+  {
+    "id": "20",
+    "numeroRomano": "XX",
+    "nombre": "El Juicio",
+    "arquetipo": "El Despertar",
+    "esencia": {
+      "upright": "Llamado interno, absolución del pasado, decisiones definitivas que transforman la vida.",
+      "reversed": "Dudas sobre el propio camino, autoreproche, ignorar la intuición o miedo a renovarse."
+    },
+    "simboloSvg": "judgement",
+    "palabrasClave": {
+      "upright": ["llamado", "absolución", "decisión"],
+      "reversed": ["culpa", "sordera", "duda"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Responde al llamado definitivo y absuélvete del pasado.",
+        "ejeCentral": "El Juicio es la llamada que ya no puedes seguir poniendo en silencio. Integras tus errores sin convertirlos en cadena perpetua y tomas la decisión adulta que cambia el resto de la partida.",
+        "origen": "Años de pruebas sueltas cobran sentido de golpe frente a esta decisión.",
+        "presente": "Despertar lúcido, perdón propio y claridad vocacional sin excusas.",
+        "desenlace": "Salto de madurez irreversible y vida alineada con quién eres hoy.",
+        "consejo": "Contesta de una vez a esa llamada interna y cierra el expediente de culpas viejas.",
+        "preguntaMesa": "¿Cuál es la decisión que sabes desde hace años que tendrás que tomar tarde o temprano?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: El autoreproche te deja sordo ante la oportunidad de cambiar.",
+        "ejeCentral": "Vives sentado en el banquillo de un tribunal interno que nunca dicta absolución. Usar tus errores pasados como excusa para no atreverte hoy es la forma más cobarde de quedarte quieto.",
+        "origen": "Culpa mal digerida que sigue cobrándote intereses diarios.",
+        "presente": "Autocrítica estéril, dudas crónicas y miedo a dar la cara por tu cambio.",
+        "desenlace": "Oportunidad perdida por indecisión si no apagas el juicio constante.",
+        "consejo": "Extrae la lección práctica del fallo, perdona al que fuiste y muévete hoy.",
+        "preguntaMesa": "¿Por qué te exiges una perfección que jamás le exigirías a nadie en esta mesa?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Suena la trompeta del despertar; responde y renuévate.",
+        "ejeCentral": "Se abre un tiempo de rendición de cuentas luminosa y resurrección simbólica. Llegan noticias decisivas, regresos significativos o revelaciones que devuelven propósito entero al camino.",
+        "origen": "Una etapa larga concluyó su examen y pide ahora ascenso.",
+        "presente": "Señal nítida, perdón mutuo y decisión trascendente en puerta.",
+        "desenlace": "Renacimiento elevado y liberación definitiva de cargas antiguas.",
+        "consejo": "Abre los oídos, perdona de verdad y pronuncia el sí definitivo.",
+        "preguntaMesa": "¿Si la vida te diera hoy una segunda oportunidad limpia, qué harías distinto desde el minuto uno?"
+      },
+      "reversed": {
+        "veredictoBase": "NO: Dudas ante el llamado; no dejes que el miedo apague el cambio.",
+        "ejeCentral": "La puerta está abierta pero el remordimiento o la inseguridad frenan el paso. Ignorar una señal tan clara solo aplaza una renovación que ya reclama tu respuesta.",
+        "origen": "Un temor antiguo al juicio ajeno congeló tu respuesta.",
+        "presente": "Vacilación, demora en noticias esperadas y peso de conciencia.",
+        "desenlace": "Aplazamiento del renacer hasta que sueltes la culpa.",
+        "consejo": "Suelta el reproche, confía en la redención del tiempo y responde.",
+        "preguntaMesa": "¿A qué veredicto ajeno le tienes más miedo que a quedarte estancado?"
+      }
+    }
+  },
+  {
+    "id": "21",
+    "numeroRomano": "XXI",
+    "nombre": "El Mundo",
+    "arquetipo": "La Realización",
+    "esencia": {
+      "upright": "Logro absoluto, cierre exitoso de un gran viaje, integración perfecta y plenitud.",
+      "reversed": "Falta de cierre, proyectos inacabados, metas frustradas en el último paso o estancamiento."
+    },
+    "simboloSvg": "world",
+    "palabrasClave": {
+      "upright": ["plenitud", "cierre", "horizonte"],
+      "reversed": ["inconcluso", "remate", "demora"]
+    },
+    "junguiano": {
+      "upright": {
+        "veredictoBase": "SÍ: Completas la obra con maestría; integra lo vivido y celebra.",
+        "ejeCentral": "El Mundo marca el cierre real de una etapa mayor. No busques problemas artificiales donde ya hay logro: integraste aprendizajes, límites y deseos en una versión más entera de ti.",
+        "origen": "Un recorrido largo de trabajo paciente culmina ahora con coherencia.",
+        "presente": "Plenitud serena, fronteras abiertas y dominio tranquilo de la situación.",
+        "desenlace": "Cierre victorioso y salto natural hacia un horizonte más amplio.",
+        "consejo": "Reconoce tu logro completo sin sabotearlo y cierra formalmente este capítulo.",
+        "preguntaMesa": "¿Qué te impide aceptar que ya llegaste y empezar a disfrutar la vista?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Remata ese último diez por ciento que postergas.",
+        "ejeCentral": "Dejaste la obra casi terminada porque cerrar implica enfrentarte al vacío de qué sigue después. Ese cabo suelto te roba más paz mental que todo el proyecto junto.",
+        "origen": "Perfeccionismo ansioso o miedo al día siguiente frenaron el remate.",
+        "presente": "Sensación incómoda de obra a medias y fatiga en los últimos metros.",
+        "desenlace": "Estancamiento en la puerta hasta que entregues el último paso.",
+        "consejo": "Deja de pulir excusas y termina hoy el detalle pendiente para poder irte.",
+        "preguntaMesa": "¿Qué tarea ridículamente pequeña llevas semanas evitando para no cerrar esta etapa?"
+      }
+    },
+    "mistico": {
+      "upright": {
+        "veredictoBase": "SÍ: Corona de realización; el gran viaje culmina en plenitud.",
+        "ejeCentral": "La danza cósmica encaja sin estridencias. Se anuncian viajes lejanos, metas coronadas, reconocimiento merecido y la certeza serena de estar en el lugar exacto.",
+        "origen": "Cada prueba del trayecto condujo hasta esta síntesis perfecta.",
+        "presente": "Éxito redondo, apertura de fronteras y cierre dichoso.",
+        "desenlace": "Plenitud total, recompensa justa y entrada en un mundo nuevo.",
+        "consejo": "Honra el camino hecho, celebra en grande y abre las alas.",
+        "preguntaMesa": "¿Cuál es el próximo gran viaje que empieza en cuanto cierres este?"
+      },
+      "reversed": {
+        "veredictoBase": "SÍ, CON UNA CONDICIÓN: Falta un último paso; no abandones en la orilla.",
+        "ejeCentral": "La meta está al alcance de la mano, pero un detalle pendiente retrasa la celebración completa. No es fracaso: es un aviso claro de cerrar bien antes de pasar página.",
+        "origen": "Un trámite olvidado o una despedida pendiente dejó la puerta entreabierta.",
+        "presente": "Obra inconclusa y demora leve en la recompensa final.",
+        "desenlace": "Coronación segura en cuanto atajes ese cabo suelto.",
+        "consejo": "Ten paciencia en el último tramo y remata lo pendiente con rigor.",
+        "preguntaMesa": "¿Vas a dejar la historia a medias por pereza en el último kilómetro?"
+      }
+    }
+  }
+]

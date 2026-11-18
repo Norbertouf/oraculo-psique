@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    background-color: #0b0c10;
+    color: #e6e4dc;
+    overflow-x: hidden;
+  }
+}
+
+/* Transición 2D fluida para revelado de cartas (sin 3D pesado en móviles) */
+@keyframes cardReveal {
+  0% {
+    opacity: 0;
+    transform: scale(0.94) translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-card-reveal {
+  animation: cardReveal 280ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Estilos de impresión limpia (@media print) */
+@media print {
+  @page {
+    margin: 18mm 16mm;
+    size: auto;
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #111111 !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
